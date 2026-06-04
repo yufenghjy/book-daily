@@ -1,0 +1,35 @@
+---
+import { addDays } from "../lib/date";
+
+export interface Props {
+  date: string;
+}
+
+const { date } = Astro.props;
+const prev = addDays(date, -1);
+const next = addDays(date, 1);
+---
+
+<div class="flex justify-between items-center mt-6 text-sm">
+  <a
+    href={`/${prev}`}
+    class="flex items-center gap-1 text-gray-500 dark:text-gray-400
+           hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+  >
+    ← {prev}
+  </a>
+  <a
+    href="/"
+    class="text-gray-500 dark:text-gray-400
+           hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+  >
+    回到今天
+  </a>
+  <a
+    href={`/${next}`}
+    class="flex items-center gap-1 text-gray-500 dark:text-gray-400
+           hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+  >
+    {next} →
+  </a>
+</div>

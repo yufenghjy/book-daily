@@ -1,0 +1,64 @@
+---
+export const prerender = true;
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import BookCard from "../components/BookCard.astro";
+import DateNavigation from "../components/DateNavigation.astro";
+import { getDailyBook, formatDateCN } from "../lib/daily";
+import { isValidDate } from "../lib/date";
+import booksData from "../data/books.json";
+import type { GetStaticPaths } from "astro";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const today = new Date();
+  const start = new Date(today);
+  start.setFullYear(today.getFullYear() - 2);
+  const end = new Date(today);
+  end.setFullYear(today.getFullYear() + 2);
+
+  const paths: { params: { date: string } }[] = [];
+  const current = new Date(start);
+  while (current <= end) {
+    paths.push({
+      params: { date: current.toISOString().slice(0, 10) },
+    });
+    current.setDate(current.getDate() + 1);
+  }
+  return paths;
+};
+
+const { date } = Astro.params;
+
+// Validate date
+if (!date || !isValidDate(date)) {
+  return new Response("无效日期", { status: 404 });
+}
+
+const book = getDailyBook(booksData, date);
+const displayDate = formatDateCN(date);
+---
+
+<BaseLayout
+  title={`${displayDate} 推荐：《${book.title}》 - 每日一书`}
+  description={`${book.title}，${book.author} 著 —— ${book.reason}`}
+  ogImage={book.cover}
+  ogUrl={`https://book-daily.vercel.app/${date}`}
+>
+  <Header />
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <div class="mb-6">
+      <p class="text-sm text-gray-500 dark:text-gray-400">
+        {displayDate} 的推荐
+      </p>
+    </div>
+
+    <BookCard book={book} date={date} />
+
+    <DateNavigation date={date} />
+  </main>
+
+  <Footer />
+</BaseLayout>

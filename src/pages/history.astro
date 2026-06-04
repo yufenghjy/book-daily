@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import HistoryCalendar from "../components/HistoryCalendar";
+import booksData from "../data/books.json";
+
+const today = new Date();
+const year = today.getFullYear();
+const month = today.getMonth() + 1;
+---
+
+<BaseLayout
+  title="往期回顾 - 每日一书"
+  description="浏览每日一书的所有历史推荐，查看过去每一天推荐的好书。"
+  ogUrl="https://book-daily.vercel.app/history"
+>
+  <Header />
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-2xl font-bold mb-6">📅 往期回顾</h1>
+    <p class="text-gray-500 dark:text-gray-400 mb-8 text-sm">
+      点击日历中的日期，查看当天的推荐书籍。
+    </p>
+
+    <div
+      class="bg-white dark:bg-gray-800 rounded-2xl p-4 md:p-6
+             shadow-lg shadow-gray-200/50 dark:shadow-gray-900/50"
+    >
+      <HistoryCalendar
+        client:load
+        books={booksData}
+        initialYear={year}
+        initialMonth={month}
+      />
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

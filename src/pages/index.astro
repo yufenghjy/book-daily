@@ -1,0 +1,43 @@
+---
+export const prerender = false;
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import BookCard from "../components/BookCard.astro";
+import DateNavigation from "../components/DateNavigation.astro";
+import { getDailyBook, getTodayStr } from "../lib/daily";
+import booksData from "../data/books.json";
+
+const today = getTodayStr();
+const book = getDailyBook(booksData, today);
+
+// CDN cache: browsers 1h, edge/CDN 24h
+Astro.response.headers.set(
+  "Cache-Control",
+  "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400"
+);
+---
+
+<BaseLayout
+  title={`今日推荐：《${book.title}》 - 每日一书`}
+  description={`${book.title}，${book.author} 著 —— ${book.reason}`}
+  ogImage={book.cover}
+  ogUrl="https://book-daily.vercel.app"
+>
+  <Header />
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <div class="mb-6">
+      <p class="text-sm text-gray-500 dark:text-gray-400">
+        {today} · 今日推荐
+      </p>
+    </div>
+
+    <BookCard book={book} date={today} />
+
+    <DateNavigation date={today} />
+  </main>
+
+  <Footer />
+</BaseLayout>
