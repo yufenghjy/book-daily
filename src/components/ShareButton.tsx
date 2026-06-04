@@ -11,7 +11,7 @@ export default function ShareButton({ title, date, base = "" }: Props) {
 
   const getUrl = () =>
     date
-      ? `${window.location.origin}${base}${date}`
+      ? `${window.location.origin}${base}/${date}`
       : window.location.href;
 
   const shareText = `📚 今日推荐：《${title}》`;

@@ -117,7 +117,7 @@ export default function HistoryCalendar({
 
           return (
             <a
-              href={`${base}${cell.dateStr}`}
+              href={`${base}/${cell.dateStr}`}
               class={`aspect-square flex flex-col items-center justify-center
                       rounded-lg text-sm transition-colors relative
                       ${
