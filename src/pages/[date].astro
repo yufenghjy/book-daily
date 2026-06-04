@@ -6,7 +6,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import BookCard from "../components/BookCard.astro";
 import DateNavigation from "../components/DateNavigation.astro";
-import { getDailyBook, formatDateCN } from "../lib/daily";
+import { getDailyBook, formatDateCN, getTodayStr } from "../lib/daily";
 import { isValidDate } from "../lib/date";
 import booksData from "../data/books.json";
 import type { GetStaticPaths } from "astro";
@@ -16,7 +16,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const start = new Date(today);
   start.setFullYear(today.getFullYear() - 2);
   const end = new Date(today);
-  end.setFullYear(today.getFullYear() + 2);
 
   const paths: { params: { date: string } }[] = [];
   const current = new Date(start);
@@ -31,34 +30,53 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 const { date } = Astro.params;
 
-// Validate date
 if (!date || !isValidDate(date)) {
   return new Response("无效日期", { status: 404 });
 }
 
-const book = getDailyBook(booksData, date);
+const today = getTodayStr();
+const isFuture = date > today;
+const book = isFuture ? undefined : getDailyBook(booksData, date);
 const displayDate = formatDateCN(date);
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout
-  title={`${displayDate} 推荐：《${book.title}》 - 每日一书`}
-  description={`${book.title}，${book.author} 著 —— ${book.reason}`}
-  ogImage={book.cover}
+  title={isFuture ? `${displayDate} - 敬请期待` : `${displayDate} 推荐：《${book!.title}》 - 每日一书`}
+  description={isFuture ? "这本书的推荐尚未揭晓，敬请期待。" : `${book!.title}，${book!.author} 著 —— ${book!.reason}`}
+  ogImage={isFuture ? undefined : book!.cover}
   ogUrl={`https://yufenghjy.github.io/book-daily/${date}`}
 >
   <Header />
 
-  <main class="max-w-4xl mx-auto px-4 py-8">
-    <div class="mb-6">
-      <p class="text-sm text-gray-500 dark:text-gray-400">
-        {displayDate} 的推荐
+  {isFuture ? (
+    <main class="max-w-4xl mx-auto px-4 py-20 text-center">
+      <p class="text-4xl mb-4">📖</p>
+      <h1 class="text-2xl font-bold mb-2">{displayDate}</h1>
+      <p class="text-gray-500 dark:text-gray-400 mb-8">
+        这一天还没到，推荐尚未揭晓。请到时候再来看看！
       </p>
-    </div>
+      <a
+        href={base}
+        class="inline-block px-6 py-3 rounded-lg bg-blue-500 text-white
+               hover:bg-blue-600 transition-colors"
+      >
+        回到今日推荐
+      </a>
+    </main>
+  ) : (
+    <main class="max-w-4xl mx-auto px-4 py-8">
+      <div class="mb-6">
+        <p class="text-sm text-gray-500 dark:text-gray-400">
+          {displayDate} 的推荐
+        </p>
+      </div>
 
-    <BookCard book={book} date={date} />
+      <BookCard book={book!} date={date} />
 
-    <DateNavigation date={date} />
-  </main>
+      <DateNavigation date={date} />
+    </main>
+  )}
 
   <Footer />
 </BaseLayout>

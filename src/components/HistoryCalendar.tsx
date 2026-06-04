@@ -35,6 +35,7 @@ export default function HistoryCalendar({
   };
 
   const nextMonth = () => {
+    if (!canGoNext) return;
     if (month === 12) {
       setYear(year + 1);
       setMonth(1);
@@ -48,6 +49,12 @@ export default function HistoryCalendar({
     setYear(now.getFullYear());
     setMonth(now.getMonth() + 1);
   };
+
+  // Cannot go beyond current month
+  const now = new Date();
+  const currentYear = now.getFullYear();
+  const currentMonth = now.getMonth() + 1;
+  const canGoNext = year < currentYear || (year === currentYear && month < currentMonth);
 
   // Build calendar grid
   const cells: { dateStr: string; day: number; isPlaceholder: boolean }[] = [];
@@ -83,14 +90,18 @@ export default function HistoryCalendar({
         <h2 class="text-xl font-bold">
           {year} 年 {month} 月
         </h2>
-        <button
-          onClick={nextMonth}
-          class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700
-                 transition-colors text-lg"
-          aria-label="下个月"
-        >
-          →
-        </button>
+        {canGoNext ? (
+          <button
+            onClick={nextMonth}
+            class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700
+                   transition-colors text-lg"
+            aria-label="下个月"
+          >
+            →
+          </button>
+        ) : (
+          <span class="w-10" />
+        )}
       </div>
 
       {/* Weekday header */}

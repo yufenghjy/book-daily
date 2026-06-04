@@ -1,13 +1,16 @@
 ---
 import { addDays } from "../lib/date";
+import { getTodayStr } from "../lib/daily";
 
 export interface Props {
   date: string;
 }
 
 const { date } = Astro.props;
+const today = getTodayStr();
 const prev = addDays(date, -1);
 const next = addDays(date, 1);
+const showNext = next <= today;
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -26,11 +29,17 @@ const base = import.meta.env.BASE_URL;
   >
     回到今天
   </a>
-  <a
-    href={`${base}/${next}`}
-    class="flex items-center gap-1 text-gray-500 dark:text-gray-400
-           hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-  >
-    {next} →
-  </a>
+  {showNext ? (
+    <a
+      href={`${base}/${next}`}
+      class="flex items-center gap-1 text-gray-500 dark:text-gray-400
+             hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+    >
+      {next} →
+    </a>
+  ) : (
+    <span class="flex items-center gap-1 text-gray-300 dark:text-gray-600 cursor-not-allowed">
+      已是今天
+    </span>
+  )}
 </div>
