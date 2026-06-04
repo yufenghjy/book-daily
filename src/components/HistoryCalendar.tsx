@@ -6,6 +6,7 @@ interface Props {
   books: Book[];
   initialYear: number;
   initialMonth: number; // 1-12
+  base: string;
 }
 
 const WEEKDAYS = ["日", "一", "二", "三", "四", "五", "六"];
@@ -14,6 +15,7 @@ export default function HistoryCalendar({
   books,
   initialYear,
   initialMonth,
+  base,
 }: Props) {
   const [year, setYear] = useState(initialYear);
   const [month, setMonth] = useState(initialMonth);
@@ -115,7 +117,7 @@ export default function HistoryCalendar({
 
           return (
             <a
-              href={`/${cell.dateStr}`}
+              href={`${base}${cell.dateStr}`}
               class={`aspect-square flex flex-col items-center justify-center
                       rounded-lg text-sm transition-colors relative
                       ${

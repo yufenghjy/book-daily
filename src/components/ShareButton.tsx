@@ -3,14 +3,15 @@ import { useState } from "preact/hooks";
 interface Props {
   title: string;
   date?: string;
+  base?: string;
 }
 
-export default function ShareButton({ title, date }: Props) {
+export default function ShareButton({ title, date, base = "" }: Props) {
   const [copied, setCopied] = useState(false);
 
   const getUrl = () =>
     date
-      ? `${window.location.origin}/${date}`
+      ? `${window.location.origin}${base}${date}`
       : window.location.href;
 
   const shareText = `📚 今日推荐：《${title}》`;
