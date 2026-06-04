@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "红楼梦",
-    "author": "[清] 曹雪芹 著",
+    "author": "曹雪芹",
     "cover": "/book-daily/covers/20.jpg",
     "description": "都云作者痴，谁解其中味？",
     "reason": "中国文学的巅峰，没有之一。一生至少完整读一次，每次重读都有新发现。豆瓣评分9.8。",
@@ -22,7 +22,7 @@
   {
     "id": "3",
     "title": "1984",
-    "author": "[英] 乔治·奥威尔",
+    "author": "乔治·奥威尔",
     "cover": "/book-daily/covers/2.jpg",
     "description": "栗树荫下，我出卖你，你出卖我",
     "reason": "关于权力、真相与自由的终极警示，在信息爆炸的今天读来格外震撼。 豆瓣评分9.3。",
@@ -32,7 +32,7 @@
   {
     "id": "4",
     "title": "百年孤独",
-    "author": "[哥伦比亚] 加西亚·马尔克斯",
+    "author": "加西亚·马尔克斯",
     "cover": "/book-daily/covers/1.jpg",
     "description": "魔幻现实主义文学代表作",
     "reason": "每个人都在用自己的方式对抗孤独，这本书让你重新理解时间、命运与家族的意义。 豆瓣评分9.2。",
@@ -42,7 +42,7 @@
   {
     "id": "5",
     "title": "飘",
-    "author": "[美国] 玛格丽特·米切尔",
+    "author": "玛格丽特·米切尔",
     "cover": "/book-daily/covers/35.jpg",
     "description": "革命时期的爱情，随风而逝",
     "reason": "乱世佳人的生存教科书。「明天又是新的一天」——永不过时的韧性宣言。豆瓣评分9.3。",
@@ -82,7 +82,7 @@
   {
     "id": "9",
     "title": "白夜行",
-    "author": "[日] 东野圭吾",
+    "author": "东野圭吾",
     "cover": "/book-daily/covers/49.jpg",
     "description": "一宗离奇命案牵出跨度近20年步步惊心的故事",
     "reason": "东野圭吾巅峰之作。读完最后一页你会倒吸一口凉气——原来所有的拼图早已摆在你面前。豆瓣评分9.1。",
@@ -92,7 +92,7 @@
   {
     "id": "10",
     "title": "动物农场",
-    "author": "[英] 乔治·奥威尔",
+    "author": "乔治·奥威尔",
     "cover": "/book-daily/covers/21.jpg",
     "description": "太阳底下并无新事",
     "reason": "用最简短的寓言讲透了权力的本质——「所有动物一律平等，但有些动物更平等。」 豆瓣评分9.2。",
@@ -112,7 +112,7 @@
   {
     "id": "12",
     "title": "小王子",
-    "author": "[法] 圣埃克苏佩里",
+    "author": "圣-埃克苏佩里",
     "cover": "/book-daily/covers/5.jpg",
     "description": "献给长成了大人的孩子们",
     "reason": "每个大人都曾经是孩子，只是很少有人记得。疲惫时最适合重读的书。 豆瓣评分9.0。",
@@ -172,7 +172,7 @@
   {
     "id": "18",
     "title": "人类简史",
-    "author": "[以色列] 尤瓦尔·赫拉利",
+    "author": "尤瓦尔·赫拉利",
     "cover": "/book-daily/covers/4.jpg",
     "description": "跟着人类一同走过十万年",
     "reason": "读完你会重新审视人类——我们如何走到今天，又将去向何方。豆瓣评分9.1。",
@@ -192,7 +192,7 @@
   {
     "id": "20",
     "title": "杀死一只知更鸟",
-    "author": "[美] 哈珀·李",
+    "author": "哈珀·李",
     "cover": "/book-daily/covers/15.jpg",
     "description": "有一种东西不能遵循从众原则，那就是——人的良心",
     "reason": "关于勇气、正义和同理心的最好教材——「你永远不可能真正了解一个人，除非你站在他的角度。」豆瓣评分9.2。",
@@ -212,7 +212,7 @@
   {
     "id": "22",
     "title": "局外人",
-    "author": "[法] 阿尔贝·加缪",
+    "author": "阿尔贝·加缪",
     "cover": "/book-daily/covers/7.jpg",
     "description": "人生在世，永远也不该演戏作假",
     "reason": "如果你曾对世界的规则感到格格不入，这本书会给你巨大的慰藉。存在主义经典。 豆瓣评分9.0。",
@@ -222,7 +222,7 @@
   {
     "id": "23",
     "title": "霍乱时期的爱情",
-    "author": "[哥伦比亚] 加西亚·马尔克斯",
+    "author": "加西亚·马尔克斯",
     "cover": "/book-daily/covers/22.jpg",
     "description": "义无反顾地直达爱情的核心",
     "reason": "人类有史以来最伟大的爱情小说。跨越半个世纪的等待，告诉你什么是真正的爱。豆瓣评分9.0。",
@@ -252,7 +252,7 @@
   {
     "id": "26",
     "title": "月亮和六便士",
-    "author": "[英] 毛姆",
+    "author": "毛姆",
     "cover": "/book-daily/covers/13.jpg",
     "description": "有多少人会经历顿悟，就有更少的人甘愿自我放逐",
     "reason": "当理想与现实冲突时，你敢不敢把一切押注在真正热爱的事上？ 豆瓣评分9.0。",
@@ -272,7 +272,7 @@
   {
     "id": "28",
     "title": "肖申克的救赎",
-    "author": "[美] 斯蒂芬·金",
+    "author": "斯蒂芬·金",
     "cover": "/book-daily/covers/32.jpg",
     "description": "豆瓣电影Top1原著",
     "reason": "希望是好事，也许是世间最好的事，而好事永远不会消逝。 豆瓣评分9.1。",
@@ -292,7 +292,7 @@
   {
     "id": "30",
     "title": "东方快车谋杀案",
-    "author": "[英] 阿加莎·克里斯蒂",
+    "author": "阿加莎·克里斯蒂",
     "cover": "/book-daily/covers/61.jpg",
     "description": "谋杀诡计惊人，波洛的抉择耐人寻味",
     "reason": "推理史上最著名的结局之一。当你以为猜到了真相时，阿加莎会给你一个更大的震撼。豆瓣评分9.0。",
@@ -302,7 +302,7 @@
   {
     "id": "31",
     "title": "追风筝的人",
-    "author": "[美] 卡勒德·胡赛尼",
+    "author": "卡勒德·胡赛尼",
     "cover": "/book-daily/covers/11.jpg",
     "description": "为你，千千万万遍",
     "reason": "关于背叛与救赎的动人故事，「为你，千千万万遍」会刻在你心里。 豆瓣评分8.9。",
@@ -312,7 +312,7 @@
   {
     "id": "32",
     "title": "万历十五年",
-    "author": "[美] 黄仁宇",
+    "author": "黄仁宇",
     "cover": "/book-daily/covers/16.jpg",
     "description": "见微知著，历史观的颠覆",
     "reason": "读历史最好的入门书——你会发现很多「现代问题」几百年前已有答案。 豆瓣评分8.9。",
@@ -362,7 +362,7 @@
   {
     "id": "37",
     "title": "嫌疑人X的献身",
-    "author": "[日] 东野圭吾",
+    "author": "东野圭吾",
     "cover": "/book-daily/covers/50.jpg",
     "description": "数学好是一种极致的浪漫",
     "reason": "史上唯一同时获得直木奖、本格推理大奖和三大推理小说排行榜第一的作品。最极致最悲怆的诡计。豆瓣评分9.0。",
@@ -372,7 +372,7 @@
   {
     "id": "38",
     "title": "刀锋",
-    "author": "[英]毛姆",
+    "author": "毛姆",
     "cover": "/book-daily/covers/26.jpg",
     "description": "一把刀的锋刃不容易越过；因此智者说得救之道是困难的",
     "reason": "当所有人都在追求六便士时，有人抬头看月亮。关于什么才是值得过的人生。 豆瓣评分9.0。",
@@ -402,7 +402,7 @@
   {
     "id": "41",
     "title": "城南旧事",
-    "author": "林海音 文",
+    "author": "林海音",
     "cover": "/book-daily/covers/41.jpg",
     "description": "长亭外，古道边，芳草碧连天",
     "reason": "长亭外，古道边，芳草碧连天 豆瓣评分9.0。",
@@ -432,7 +432,7 @@
   {
     "id": "44",
     "title": "傲慢与偏见",
-    "author": "[英] 奥斯丁",
+    "author": "简·奥斯汀",
     "cover": "/book-daily/covers/44.jpg",
     "description": "所有现代言情小说的母体",
     "reason": "所有现代言情小说的母体 豆瓣评分8.9。",
@@ -472,7 +472,7 @@
   {
     "id": "48",
     "title": "无人生还",
-    "author": "[英] 阿加莎・克里斯蒂",
+    "author": "阿加莎·克里斯蒂",
     "cover": "/book-daily/covers/60.jpg",
     "description": "童谣杀人案",
     "reason": "推理女王最经典的作品，暴风雪山庄模式的开山之作。看完你会疯狂安利给所有人。豆瓣评分9.0。",
@@ -482,7 +482,7 @@
   {
     "id": "49",
     "title": "文学回忆录（全2册）",
-    "author": "木心 口述",
+    "author": "木心",
     "cover": "/book-daily/covers/49.jpg",
     "description": "木心留给世界的礼物",
     "reason": "木心留给世界的礼物 豆瓣评分9.1。",
@@ -612,7 +612,7 @@
   {
     "id": "62",
     "title": "邓小平时代",
-    "author": "[美] 傅高义",
+    "author": "傅高义",
     "cover": "/book-daily/covers/70.jpg",
     "description": "个人命运背后的历史变局",
     "reason": "了解当代中国从何处来、如何走到今天的必读之书。客观、翔实、引人深思。豆瓣评分9.2。",
@@ -672,7 +672,7 @@
   {
     "id": "68",
     "title": "永恒的终结",
-    "author": "[美] 艾萨克·阿西莫夫",
+    "author": "艾萨克·阿西莫夫",
     "cover": "/book-daily/covers/57.jpg",
     "description": "关于时间旅行的终极奥秘和恢宏构想",
     "reason": "关于时间旅行最好的小说。阿西莫夫用一个爱情故事击穿你对时间、因果和自由意志的全部认知。豆瓣评分9.0。",
@@ -692,7 +692,7 @@
   {
     "id": "70",
     "title": "悉达多",
-    "author": "[德] 赫尔曼·黑塞",
+    "author": "赫尔曼·黑塞",
     "cover": "/book-daily/covers/24.jpg",
     "description": "在那最绝望的一刹那，他突然听到了生命之河永恒的声音……",
     "reason": "给焦虑现代人的一剂解药。关于一个人如何找到真正属于自己的路。豆瓣评分9.3。",
@@ -812,7 +812,7 @@
   {
     "id": "82",
     "title": "你当像鸟飞往你的山",
-    "author": "[美] 塔拉·韦斯特弗",
+    "author": "塔拉·韦斯特弗",
     "cover": "/book-daily/covers/30.jpg",
     "description": "我来自一个极少有人能想象的家庭，教育给了我新世界",
     "reason": "教育不是灌输，而是点燃火焰。这本书让你相信——人可以彻底重塑自己。豆瓣评分8.9。",
@@ -862,7 +862,7 @@
   {
     "id": "87",
     "title": "鼠疫",
-    "author": "(法)阿尔贝·加缪",
+    "author": "阿尔贝·加缪",
     "cover": "/book-daily/covers/46.jpg",
     "description": "用别样的监禁生活再现某种监禁生活，与用不存在的事表现真事同等合理",
     "reason": "疫情后重读格外震撼。「在人的身上，值得赞扬的东西总是多于应该蔑视的东西。」豆瓣评分9.0。",
@@ -922,7 +922,7 @@
   {
     "id": "93",
     "title": "叫魂",
-    "author": "[美] 孔飞力",
+    "author": "孔飞力",
     "cover": "/book-daily/covers/69.jpg",
     "description": "1768年中国妖术大恐慌",
     "reason": "「太阳底下无新事」——读完你会发现，网络谣言、社会恐慌、官僚推诿这一套两百年前就上演过了。 豆瓣评分9.0。",
@@ -932,7 +932,7 @@
   {
     "id": "94",
     "title": "时间简史",
-    "author": "[英] 史蒂芬·霍金",
+    "author": "斯蒂芬·霍金",
     "cover": "/book-daily/covers/43.jpg",
     "description": "探索时间和空间的核心秘密",
     "reason": "全球销量超2500万册的科学经典。让你在仰望星空时不止于感叹「好美」。豆瓣评分8.8。",
@@ -1002,7 +1002,7 @@
   {
     "id": "101",
     "title": "人生的智慧",
-    "author": "[德] 阿图尔·叔本华",
+    "author": "叔本华",
     "cover": "/book-daily/covers/53.jpg",
     "description": "对世俗、实用问题深刻而透彻的讨论",
     "reason": "悲观主义哲学家写的最实用的幸福指南。年轻时读和中年读完全是两本书。豆瓣评分9.2。",
@@ -1052,7 +1052,7 @@
   {
     "id": "106",
     "title": "史蒂夫·乔布斯传",
-    "author": "[美] 沃尔特·艾萨克森",
+    "author": "沃尔特·艾萨克森",
     "cover": "/book-daily/covers/72.jpg",
     "description": "完美主义者的最高形态",
     "reason": "关于创新、完美主义和改变世界的最真实故事。乔布斯的偏执与天才同样令人震撼。豆瓣评分8.9。",
@@ -1082,7 +1082,7 @@
   {
     "id": "109",
     "title": "苏菲的世界",
-    "author": "[挪] 乔斯坦·贾德",
+    "author": "乔斯坦·贾德",
     "cover": "/book-daily/covers/12.jpg",
     "description": "哲学启蒙书",
     "reason": "最好的哲学入门书，用小说的外壳包裹了西方哲学史的全部精华。 豆瓣评分8.8。",
@@ -1132,7 +1132,7 @@
   {
     "id": "114",
     "title": "万水千山走遍",
-    "author": "[奥] 斯蒂芬·茨威格",
+    "author": "三毛",
     "cover": "/book-daily/covers/114.jpg",
     "description": "从遥远的撒哈拉到敦煌戈壁",
     "reason": "从遥远的撒哈拉到敦煌戈壁 豆瓣评分8.8。",
@@ -1142,7 +1142,7 @@
   {
     "id": "115",
     "title": "昨日的世界",
-    "author": "（清）沈复",
+    "author": "斯蒂芬·茨威格",
     "cover": "/book-daily/covers/74.jpg",
     "description": "一个高贵而残破的昨日镜像",
     "reason": "一位欧洲知识分子写给逝去时代的情书和悼词。读完你会理解今天的和平有多珍贵。豆瓣评分9.3。",
@@ -1182,7 +1182,7 @@
   {
     "id": "119",
     "title": "送你一颗子弹",
-    "author": "林达",
+    "author": "刘瑜",
     "cover": "/book-daily/covers/119.jpg",
     "description": "在这本书里，被“审视”的东西杂七杂八",
     "reason": "在这本书里，被“审视”的东西杂七杂八 豆瓣评分8.6。",
@@ -1202,7 +1202,7 @@
   {
     "id": "121",
     "title": "不能承受的生命之轻",
-    "author": "[日] 岩井俊二",
+    "author": "米兰·昆德拉",
     "cover": "/book-daily/covers/121.jpg",
     "description": "",
     "reason": " 豆瓣评分8.8。",
@@ -1222,7 +1222,7 @@
   {
     "id": "123",
     "title": "绿毛水怪",
-    "author": "刘慈欣",
+    "author": "王小波",
     "cover": "",
     "description": "我们好象在池塘的水底，从一个月亮走向另一个月亮",
     "reason": "我们好象在池塘的水底，从一个月亮走向另一个月亮 豆瓣评分9.0。",
@@ -1232,7 +1232,7 @@
   {
     "id": "124",
     "title": "球状闪电",
-    "author": "张爱玲",
+    "author": "刘慈欣",
     "cover": "",
     "description": "量子之外，没有真相",
     "reason": "量子之外，没有真相 豆瓣评分8.7。",
@@ -1242,7 +1242,7 @@
   {
     "id": "125",
     "title": "倾城之恋",
-    "author": "(英)W.萨默塞特·毛姆",
+    "author": "张爱玲",
     "cover": "/book-daily/covers/125.jpg",
     "description": "“一对平凡的夫妻”之间的“一点真心”",
     "reason": "“一对平凡的夫妻”之间的“一点真心” 豆瓣评分8.7。",
@@ -1262,7 +1262,7 @@
   {
     "id": "127",
     "title": "野火集",
-    "author": "都梁",
+    "author": "龙应台",
     "cover": "/book-daily/covers/127.jpg",
     "description": "中国人，你为什么不生气",
     "reason": "中国人，你为什么不生气 豆瓣评分8.8。",
@@ -1302,7 +1302,7 @@
   {
     "id": "131",
     "title": "目送",
-    "author": "老舍",
+    "author": "龙应台",
     "cover": "/book-daily/covers/131.jpg",
     "description": "不必追",
     "reason": "不必追 豆瓣评分8.6。",
@@ -1312,7 +1312,7 @@
   {
     "id": "132",
     "title": "四世同堂",
-    "author": "[英] 道格拉斯·亚当斯",
+    "author": "老舍",
     "cover": "/book-daily/covers/132.jpg",
     "description": "北平沦陷时代广大平民的悲惨遭遇",
     "reason": "北平沦陷时代广大平民的悲惨遭遇 豆瓣评分9.3。",
@@ -1342,7 +1342,7 @@
   {
     "id": "135",
     "title": "我的阿勒泰",
-    "author": "[美] 欧·亨利",
+    "author": "李娟",
     "cover": "/book-daily/covers/135.jpg",
     "description": "描写疆北阿勒泰地区生活和风情的原生态散文集",
     "reason": "描写疆北阿勒泰地区生活和风情的原生态散文集 豆瓣评分8.8。",
@@ -1362,7 +1362,7 @@
   {
     "id": "137",
     "title": "温柔的夜",
-    "author": "[日] 东野圭吾",
+    "author": "三毛",
     "cover": "/book-daily/covers/137.jpg",
     "description": "三毛在加纳利群岛的生活",
     "reason": "三毛在加纳利群岛的生活 豆瓣评分9.1。",
@@ -1412,7 +1412,7 @@
   {
     "id": "142",
     "title": "阿勒泰的角落",
-    "author": "汪曾祺",
+    "author": "李娟",
     "cover": "/book-daily/covers/142.jpg",
     "description": "白雪和阳光，青草和白桦林",
     "reason": "白雪和阳光，青草和白桦林 豆瓣评分9.1。",
@@ -1422,7 +1422,7 @@
   {
     "id": "143",
     "title": "受戒",
-    "author": "张爱玲",
+    "author": "汪曾祺",
     "cover": "/book-daily/covers/143.jpg",
     "description": "江南乡镇民间生活，健康淳朴的人性",
     "reason": "江南乡镇民间生活，健康淳朴的人性 豆瓣评分9.3。",
@@ -1432,7 +1432,7 @@
   {
     "id": "144",
     "title": "半生缘",
-    "author": "[德] 赫尔曼·黑塞",
+    "author": "张爱玲",
     "cover": "/book-daily/covers/144.jpg",
     "description": "世钧，我们回不去了",
     "reason": "世钧，我们回不去了 豆瓣评分8.6。",
@@ -1452,7 +1452,7 @@
   {
     "id": "146",
     "title": "枪炮、病菌与钢铁",
-    "author": "李碧华",
+    "author": "贾雷德·戴蒙德",
     "cover": "/book-daily/covers/34.jpg",
     "description": "人类社会的命运",
     "reason": "普利策奖获奖作品。读完你会用全新视角理解历史、文明与人类命运。豆瓣评分8.8。",
@@ -1472,7 +1472,7 @@
   {
     "id": "148",
     "title": "我不知道该说什么，关于死亡还是爱情",
-    "author": "[日]芥川龙之介",
+    "author": "S.A.阿列克谢耶维奇",
     "cover": "/book-daily/covers/148.jpg",
     "description": "真实记录切尔诺贝利核灾难事件",
     "reason": "真实记录切尔诺贝利核灾难事件 豆瓣评分9.0。",
@@ -1502,7 +1502,7 @@
   {
     "id": "151",
     "title": "棋王",
-    "author": "茅海建",
+    "author": "阿城",
     "cover": "/book-daily/covers/151.jpg",
     "description": "我从未真正见过火，也未见过毁灭，更不知新生",
     "reason": "我从未真正见过火，也未见过毁灭，更不知新生 豆瓣评分8.8。",
@@ -1542,7 +1542,7 @@
   {
     "id": "155",
     "title": "罪与罚",
-    "author": "[英] 吉米·哈利",
+    "author": "陀思妥耶夫斯基",
     "cover": "/book-daily/covers/29.jpg",
     "description": "描绘人内心的全部深度",
     "reason": "人类文学史上最深刻的心理小说。陀思妥耶夫斯基带你走进一个杀人犯的内心。 豆瓣评分9.1。",
@@ -1592,7 +1592,7 @@
   {
     "id": "160",
     "title": "顾城的诗",
-    "author": "刘瑜",
+    "author": "顾城",
     "cover": "/book-daily/covers/160.jpg",
     "description": "火焰是我们诗歌唯一的读者",
     "reason": "火焰是我们诗歌唯一的读者 豆瓣评分8.8。",
@@ -1602,7 +1602,7 @@
   {
     "id": "161",
     "title": "民主的细节",
-    "author": "(美) 斯塔夫里阿诺斯",
+    "author": "刘瑜",
     "cover": "/book-daily/covers/161.jpg",
     "description": "公民养成手册",
     "reason": "公民养成手册 豆瓣评分8.6。",
@@ -1652,7 +1652,7 @@
   {
     "id": "166",
     "title": "人间草木",
-    "author": "刘震云",
+    "author": "汪曾祺",
     "cover": "/book-daily/covers/166.jpg",
     "description": "我就是要这样香，香得痛痛快快",
     "reason": "我就是要这样香，香得痛痛快快 豆瓣评分9.0。",
@@ -1662,7 +1662,7 @@
   {
     "id": "167",
     "title": "一句顶一万句",
-    "author": "老舍",
+    "author": "刘震云",
     "cover": "/book-daily/covers/167.jpg",
     "description": "一句胜过千年",
     "reason": "一句胜过千年 豆瓣评分8.7。",
@@ -1672,7 +1672,7 @@
   {
     "id": "168",
     "title": "茶馆",
-    "author": "三毛",
+    "author": "老舍",
     "cover": "",
     "description": "清末、民初、抗战胜利以后三个历史时期的北京生活风貌",
     "reason": "清末、民初、抗战胜利以后三个历史时期的北京生活风貌 豆瓣评分9.0。",
@@ -1682,7 +1682,7 @@
   {
     "id": "169",
     "title": "雨季不再来",
-    "author": "曹禺",
+    "author": "三毛",
     "cover": "/book-daily/covers/169.jpg",
     "description": "三毛少女时代的成长感受",
     "reason": "三毛少女时代的成长感受 豆瓣评分8.7。",
@@ -1692,7 +1692,7 @@
   {
     "id": "170",
     "title": "雷雨",
-    "author": "曹文轩",
+    "author": "曹禺",
     "cover": "/book-daily/covers/170.jpg",
     "description": "一幕人生大悲剧，在一个雷雨夜爆发",
     "reason": "一幕人生大悲剧，在一个雷雨夜爆发 豆瓣评分8.6。",
@@ -1722,7 +1722,7 @@
   {
     "id": "173",
     "title": "此生未完成",
-    "author": "宗萨蒋扬钦哲仁波切",
+    "author": "于娟",
     "cover": "/book-daily/covers/173.jpg",
     "description": "一个母亲、妻子、女儿的生命日记",
     "reason": "一个母亲、妻子、女儿的生命日记 豆瓣评分8.9。",
@@ -1762,7 +1762,7 @@
   {
     "id": "177",
     "title": "青铜时代",
-    "author": "[明] 施耐庵",
+    "author": "王小波",
     "cover": "/book-daily/covers/177.jpg",
     "description": "唐人传奇贯注现代情趣",
     "reason": "唐人传奇贯注现代情趣 豆瓣评分8.7。",
@@ -1812,7 +1812,7 @@
   {
     "id": "182",
     "title": "牧羊少年奇幻之旅",
-    "author": "[古希腊] 柏拉图",
+    "author": "保罗·柯艾略",
     "cover": "/book-daily/covers/40.jpg",
     "description": "你自己就是最大的宝藏",
     "reason": "当你真心渴望某样东西时，整个宇宙都会联合起来帮助你。最温柔的追梦之书。 豆瓣评分8.5。",
@@ -1842,7 +1842,7 @@
   {
     "id": "185",
     "title": "繁花",
-    "author": "[美] 艾萨克·阿西莫夫",
+    "author": "金宇澄",
     "cover": "/book-daily/covers/185.jpg",
     "description": "海上繁花，请静观静读",
     "reason": "海上繁花，请静观静读 豆瓣评分8.7。",
@@ -1852,7 +1852,7 @@
   {
     "id": "186",
     "title": "黑客与画家",
-    "author": "[美] 特德·姜",
+    "author": "保罗·格雷厄姆",
     "cover": "/book-daily/covers/17.jpg",
     "description": "硅谷创业之父Paul Graham文集",
     "reason": "程序员必读，但不止于程序员——关于如何思考、如何创造、如何理解世界。 豆瓣评分8.7。",
@@ -1892,7 +1892,7 @@
   {
     "id": "190",
     "title": "巨流河",
-    "author": "张爱玲",
+    "author": "齐邦媛",
     "cover": "/book-daily/covers/190.jpg",
     "description": "两代人从巨流河到哑口海的故事",
     "reason": "两代人从巨流河到哑口海的故事 豆瓣评分8.7。",
@@ -1912,7 +1912,7 @@
   {
     "id": "192",
     "title": "金锁记",
-    "author": "[美] 悉达多·穆克吉",
+    "author": "张爱玲",
     "cover": "",
     "description": "一个小商人家庭出身的女子曹七巧的心灵变迁历程",
     "reason": "一个小商人家庭出身的女子曹七巧的心灵变迁历程 豆瓣评分8.6。",
@@ -1942,7 +1942,7 @@
   {
     "id": "195",
     "title": "棋王·树王·孩子王",
-    "author": "迟子建",
+    "author": "阿城",
     "cover": "/book-daily/covers/195.jpg",
     "description": "",
     "reason": " 豆瓣评分9.2。",
@@ -1952,7 +1952,7 @@
   {
     "id": "196",
     "title": "简爱（英文全本）",
-    "author": "张爱玲",
+    "author": "夏洛蒂·勃朗特",
     "cover": "",
     "description": "灰姑娘在十九世纪",
     "reason": "灰姑娘在十九世纪 豆瓣评分8.5。",
@@ -1962,7 +1962,7 @@
   {
     "id": "197",
     "title": "额尔古纳河右岸",
-    "author": "[日] 原研哉",
+    "author": "迟子建",
     "cover": "",
     "description": "东北少数民族鄂温克人生存现状及百年沧桑",
     "reason": "东北少数民族鄂温克人生存现状及百年沧桑 豆瓣评分9.0。",
@@ -1972,7 +1972,7 @@
   {
     "id": "198",
     "title": "张爱玲文集",
-    "author": "[日] 东野圭吾",
+    "author": "张爱玲",
     "cover": "",
     "description": "",
     "reason": " 豆瓣评分8.9。",
@@ -1982,7 +1982,7 @@
   {
     "id": "199",
     "title": "设计中的设计",
-    "author": "三浦紫苑",
+    "author": "原研哉",
     "cover": "/book-daily/covers/199.jpg",
     "description": "日常生活的无限可能性",
     "reason": "日常生活的无限可能性 豆瓣评分8.6。",
@@ -1992,7 +1992,7 @@
   {
     "id": "200",
     "title": "恶意",
-    "author": "[奥] 斯台芬·茨威格",
+    "author": "东野圭吾",
     "cover": "",
     "description": "将手记体叙事的无限可能发挥得淋漓尽致",
     "reason": "将手记体叙事的无限可能发挥得淋漓尽致 豆瓣评分8.4。",
@@ -2012,7 +2012,7 @@
   {
     "id": "202",
     "title": "象棋的故事",
-    "author": "(英)威廉·萨默塞特·毛姆",
+    "author": "斯台芬·茨威格",
     "cover": "/book-daily/covers/202.jpg",
     "description": "纳粹法西斯对人心灵的折磨及摧残",
     "reason": "纳粹法西斯对人心灵的折磨及摧残 豆瓣评分9.1。",
@@ -2022,7 +2022,7 @@
   {
     "id": "203",
     "title": "故事新编",
-    "author": "[美] E.B.怀特",
+    "author": "鲁迅",
     "cover": "/book-daily/covers/203.jpg",
     "description": "拾取古代传说，取一点因由，随意点染",
     "reason": "拾取古代传说，取一点因由，随意点染 豆瓣评分9.2。",
@@ -2032,7 +2032,7 @@
   {
     "id": "204",
     "title": "毛姆短篇小说精选集",
-    "author": "[日] 村上春树",
+    "author": "毛姆",
     "cover": "",
     "description": "在各种光怪陆离的场景中，迷失的人性引发了一连串的悲剧",
     "reason": "在各种光怪陆离的场景中，迷失的人性引发了一连串的悲剧 豆瓣评分9.0。",
@@ -2042,7 +2042,7 @@
   {
     "id": "205",
     "title": "论语",
-    "author": "[日] 乙一",
+    "author": "孔子及其弟子",
     "cover": "",
     "description": "仁远乎哉？我欲仁，斯仁至矣",
     "reason": "仁远乎哉？我欲仁，斯仁至矣 豆瓣评分9.1。",
@@ -2052,7 +2052,7 @@
   {
     "id": "206",
     "title": "夏洛的网",
-    "author": "[日] 是枝裕和",
+    "author": "E.B.怀特",
     "cover": "/book-daily/covers/206.jpg",
     "description": "一个蜘蛛和小猪的故事，写给孩子，也写给大人",
     "reason": "一个蜘蛛和小猪的故事，写给孩子，也写给大人 豆瓣评分8.6。",
@@ -2082,7 +2082,7 @@
   {
     "id": "209",
     "title": "步履不停",
-    "author": "[日] 岛田洋七",
+    "author": "是枝裕和",
     "cover": "/book-daily/covers/209.jpg",
     "description": "人生路上，步履不停，总有那么一点来不及",
     "reason": "人生路上，步履不停，总有那么一点来不及 豆瓣评分8.7。",
@@ -2092,7 +2092,7 @@
   {
     "id": "210",
     "title": "稻草人手记",
-    "author": "[德]赫尔曼·黑塞",
+    "author": "三毛",
     "cover": "/book-daily/covers/210.jpg",
     "description": "三毛在加纳利群岛上的生活",
     "reason": "三毛在加纳利群岛上的生活 豆瓣评分8.9。",
@@ -2152,7 +2152,7 @@
   {
     "id": "216",
     "title": "影响力",
-    "author": "[奥] 斯蒂芬·茨威格",
+    "author": "罗伯特·西奥迪尼",
     "cover": "/book-daily/covers/45.jpg",
     "description": "营销防骗指南",
     "reason": "读完你会发现，生活中处处是这些原则在起作用——销售、广告、人际关系，无处不在。豆瓣评分8.8。",
@@ -2172,7 +2172,7 @@
   {
     "id": "218",
     "title": "挪威的森林",
-    "author": "汤显祖",
+    "author": "村上春树",
     "cover": "/book-daily/covers/18.jpg",
     "description": "像喜欢春天的熊一样",
     "reason": "村上春树最深入人心的作品，每个人都能在里面找到自己的影子。 豆瓣评分8.5。",
@@ -2202,7 +2202,7 @@
   {
     "id": "221",
     "title": "牡丹亭",
-    "author": "[日] 三岛由纪夫",
+    "author": "汤显祖",
     "cover": "",
     "description": "不到园林，怎知春色如许",
     "reason": "不到园林，怎知春色如许 豆瓣评分9.0。",
@@ -2252,7 +2252,7 @@
   {
     "id": "226",
     "title": "美丽新世界",
-    "author": "[日]凑佳苗",
+    "author": "阿道司·赫胥黎",
     "cover": "/book-daily/covers/226.jpg",
     "description": "最经典的反乌托邦文学之一",
     "reason": "最经典的反乌托邦文学之一 豆瓣评分8.7。",
@@ -2312,7 +2312,7 @@
   {
     "id": "232",
     "title": "了不起的盖茨比",
-    "author": "任东来",
+    "author": "菲茨杰拉德",
     "cover": "/book-daily/covers/36.jpg",
     "description": "",
     "reason": "「于是我们奋力前行，逆水行舟，不断被推回到过去。」最精美的美国小说。豆瓣评分8.7。",
@@ -2332,7 +2332,7 @@
   {
     "id": "234",
     "title": "骆驼祥子",
-    "author": "刘亮程",
+    "author": "老舍",
     "cover": "/book-daily/covers/234.jpg",
     "description": "旧中国老北京贫苦市民的典型命运",
     "reason": "旧中国老北京贫苦市民的典型命运 豆瓣评分8.4。",
@@ -2362,7 +2362,7 @@
   {
     "id": "237",
     "title": "一个人的村庄",
-    "author": "[瑞典] 阿斯特丽德·林格伦",
+    "author": "刘亮程",
     "cover": "",
     "description": "他是真正的作家，也是真正的农民",
     "reason": "他是真正的作家，也是真正的农民 豆瓣评分8.9。",
@@ -2422,7 +2422,7 @@
   {
     "id": "243",
     "title": "尘埃落定",
-    "author": "[美] 尼尔·波兹曼",
+    "author": "阿来",
     "cover": "/book-daily/covers/243.jpg",
     "description": "一个傻子的土司家族传奇",
     "reason": "一个傻子的土司家族传奇 豆瓣评分8.5。",
@@ -2452,7 +2452,7 @@
   {
     "id": "246",
     "title": "娱乐至死",
-    "author": "[美] 理查德·格里格",
+    "author": "尼尔·波兹曼",
     "cover": "/book-daily/covers/27.jpg",
     "description": "一切公众话语都日渐以娱乐的方式出现，一切文化内容都成为娱乐的附庸",
     "reason": "1985年写的书，精准预言了短视频时代的今天。读完后你会重新审视自己的屏幕时间。 豆瓣评分8.5。",
@@ -2462,7 +2462,7 @@
   {
     "id": "247",
     "title": "社会性动物",
-    "author": "[日] 是枝裕和",
+    "author": "艾略特·阿伦森",
     "cover": "/book-daily/covers/38.jpg",
     "description": "美国社会心理学的《圣经》",
     "reason": "美国社会心理学「圣经」。读完你终于理解为什么人会做出匪夷所思的事。豆瓣评分9.1。",
