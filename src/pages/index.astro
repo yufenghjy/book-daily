@@ -1,6 +1,4 @@
 ---
-export const prerender = false;
-
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
@@ -11,19 +9,13 @@ import booksData from "../data/books.json";
 
 const today = getTodayStr();
 const book = getDailyBook(booksData, today);
-
-// CDN cache: browsers 1h, edge/CDN 24h
-Astro.response.headers.set(
-  "Cache-Control",
-  "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400"
-);
 ---
 
 <BaseLayout
   title={`今日推荐：《${book.title}》 - 每日一书`}
   description={`${book.title}，${book.author} 著 —— ${book.reason}`}
   ogImage={book.cover}
-  ogUrl="https://book-daily.vercel.app"
+  ogUrl="https://yufenghjy.github.io/book-daily"
 >
   <Header />
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://book-daily.vercel.app/sitemap-index.xml
+Sitemap: https://yufenghjy.github.io/book-daily/sitemap-index.xml
