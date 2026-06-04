@@ -1,82 +1,722 @@
 [
-  {"id":"1","title":"百年孤独","author":"加西亚·马尔克斯","cover":"https://img2.doubanio.com/view/subject/l/public/s6384944.jpg","description":"魔幻现实主义代表作，描写布恩迪亚家族七代人的传奇故事，以及加勒比海沿岸小镇马孔多的百年兴衰，折射拉丁美洲一个世纪的风云变幻。","reason":"每个人都在用自己的方式对抗孤独，这本书让你重新理解时间、命运与家族的意义。","category":"文学"},
-  {"id":"2","title":"1984","author":"乔治·奥威尔","cover":"https://img2.doubanio.com/view/subject/l/public/s4371408.jpg","description":"政治寓言小说，刻画了一个令人窒息的极权主义世界。主人公温斯顿在「真理部」每天篡改历史，内心却寻求真相与自由。","reason":"关于权力、真相与自由的终极警示，在信息爆炸的今天读来格外震撼。","category":"小说"},
-  {"id":"3","title":"活着","author":"余华","cover":"https://img2.doubanio.com/view/subject/l/public/s29053580.jpg","description":"地主少爷福贵嗜赌成性，终于赌光了家业一贫如洗。穷困之中经历中国近现代社会的种种变迁，亲人相继离世，最后只剩一头老牛相伴。","reason":"用最朴素的语言讲述最深刻的人生——活着本身就是一种力量。豆瓣评分9.4。","category":"文学"},
-  {"id":"4","title":"人类简史","author":"尤瓦尔·赫拉利","cover":"https://img2.doubanio.com/view/subject/l/public/s27814883.jpg","description":"从十万年前有生命迹象开始到21世纪，将人类从石器时代到科技革命的演化做了全景式梳理，颠覆你对「人类」这一物种的认知。","reason":"读完你会重新审视人类——我们如何走到今天，又将去向何方。豆瓣评分9.1。","category":"历史"},
-  {"id":"5","title":"小王子","author":"圣-埃克苏佩里","cover":"https://img2.doubanio.com/view/subject/l/public/s1103152.jpg","description":"以飞行员叙述者讲述小王子从自己星球出发前往地球途中的历险。用孩子式的眼光透视成人的空虚与盲目。","reason":"每个大人都曾经是孩子，只是很少有人记得。疲惫时最适合重读的书。","category":"童话"},
-  {"id":"6","title":"三体","author":"刘慈欣","cover":"https://img2.doubanio.com/view/subject/l/public/s2768378.jpg","description":"文化大革命如火如荼进行时，军方探寻外星文明的绝秘计划「红岸工程」取得突破。叶文洁按下发射键的那一刻，彻底改变了人类的命运。","reason":"中国科幻的巅峰之作，彻底颠覆你对宇宙、文明与道德的认知框架。豆瓣评分9.4。","category":"科幻"},
-  {"id":"7","title":"局外人","author":"阿尔贝·加缪","cover":"https://img2.doubanio.com/view/subject/l/public/s1055143.jpg","description":"主人公默尔索对母亲的死、情人的爱、朋友的求助、自身的审判都表现出一种超然的冷漠——他是这个世界的「局外人」。","reason":"如果你曾对世界的规则感到格格不入，这本书会给你巨大的慰藉。存在主义经典。","category":"哲学"},
-  {"id":"8","title":"平凡的世界","author":"路遥","cover":"https://img2.doubanio.com/view/subject/l/public/s1486869.jpg","description":"以中国70至80年代中期为背景，以孙少安和孙少平两兄弟为中心，刻画了社会各阶层众多普通人的劳动与爱情、挫折与追求。","reason":"在焦虑内卷的时代，回到那个物质贫乏却精神饱满的世界，获得久违的力量。","category":"文学"},
-  {"id":"9","title":"思考，快与慢","author":"丹尼尔·卡尼曼","cover":"https://img2.doubanio.com/view/subject/l/public/s6510349.jpg","description":"诺贝尔经济学奖得主卡尼曼教授50多年研究的结晶，揭示人类思维中两个系统的运作方式：快速直觉的系统1和缓慢理性的系统2。","reason":"了解自己如何做决策，是做出更好决策的第一步。每页都有「原来如此」的顿悟。","category":"心理学"},
-  {"id":"10","title":"围城","author":"钱锺书","cover":"https://img2.doubanio.com/view/subject/l/public/s1070222.jpg","description":"以留学生方鸿渐回国后的经历为主线，描绘抗战初期中国知识分子的群像。「围在城里的人想逃出来，城外的人想冲进去。」","reason":"中国现代文学中最幽默犀利的一本书，关于婚姻、职场与人性的洞察至今不过时。豆瓣评分9.2。","category":"文学"},
-  {"id":"11","title":"追风筝的人","author":"卡勒德·胡赛尼","cover":"https://img2.doubanio.com/view/subject/l/public/s1727290.jpg","description":"12岁的阿富汗富家少爷阿米尔与仆人哈桑情同手足。一场风筝比赛后发生了一件悲惨的事，阿米尔为自己的懦弱自责，逼走了哈桑。","reason":"关于背叛与救赎的动人故事，「为你，千千万万遍」会刻在你心里。","category":"小说"},
-  {"id":"12","title":"苏菲的世界","author":"乔斯坦·贾德","cover":"https://img2.doubanio.com/view/subject/l/public/s1005676.jpg","description":"14岁少女苏菲某天放学回家发现一封神秘来信——「你是谁？」在神秘导师引导下，她开始学习从古希腊到现代的哲学史。","reason":"最好的哲学入门书，用小说的外壳包裹了西方哲学史的全部精华。","category":"哲学"},
-  {"id":"13","title":"月亮和六便士","author":"毛姆","cover":"https://img2.doubanio.com/view/subject/l/public/s2659208.jpg","description":"英国证券交易所的经纪人突然抛弃稳定工作和家庭，去巴黎追求绘画理想。他的原型是画家高更。","reason":"当理想与现实冲突时，你敢不敢把一切押注在真正热爱的事上？","category":"小说"},
-  {"id":"14","title":"非暴力沟通","author":"马歇尔·卢森堡","cover":"https://img2.doubanio.com/view/subject/l/public/s29113730.jpg","description":"一种以「观察—感受—需要—请求」为核心的沟通方式，帮助我们化解人际冲突，建立真诚的连接，让爱融入生活。","reason":"90%的人际矛盾都可以用四个步骤化解。最实用的心理学书之一。","category":"心理学"},
-  {"id":"15","title":"杀死一只知更鸟","author":"哈珀·李","cover":"https://img2.doubanio.com/view/subject/l/public/s1128410.jpg","description":"大萧条时期美国南方小镇，律师阿提克斯为被指控强奸白人女子的黑人辩护，他的两个孩子也在事件中经历了善恶的考验与成长。","reason":"关于勇气、正义和同理心的最好教材——「你永远不可能真正了解一个人，除非你站在他的角度。」豆瓣评分9.2。","category":"小说"},
-  {"id":"16","title":"万历十五年","author":"黄仁宇","cover":"https://img2.doubanio.com/view/subject/l/public/s1627910.jpg","description":"以1587年（万历十五年）为切入点，通过万历皇帝、张居正、海瑞、戚继光等人物命运，展现了中国传统社会运行的深层逻辑。","reason":"读历史最好的入门书——你会发现很多「现代问题」几百年前已有答案。","category":"历史"},
-  {"id":"17","title":"黑客与画家","author":"保罗·格雷厄姆","cover":"https://img2.doubanio.com/view/subject/l/public/s4669553.jpg","description":"硅谷创业教父保罗·格雷厄姆的文集，探讨黑客精神、创业思维、编程语言设计、财富创造等话题，颠覆你对技术和商业的认知。","reason":"程序员必读，但不止于程序员——关于如何思考、如何创造、如何理解世界。","category":"科技"},
-  {"id":"18","title":"挪威的森林","author":"村上春树","cover":"https://img2.doubanio.com/view/subject/l/public/s1028292.jpg","description":"渡边在飞机上听到披头士的《挪威的森林》，回忆起18年前与两个女孩——直子和绿子之间的爱情纠葛。一部关于青春、爱与死亡的成长小说。","reason":"村上春树最深入人心的作品，每个人都能在里面找到自己的影子。","category":"小说"},
-  {"id":"19","title":"刻意练习","author":"安德斯·艾利克森","cover":"https://img2.doubanio.com/view/subject/l/public/s29105163.jpg","description":"心理学家艾利克森潜心几十年研究各行业专家级人物，发现「天才」的背后其实是「刻意练习」——有目标的、专注的、有反馈的、走出舒适区的练习。","reason":"打破「天赋决定论」的最有力证据——杰出不是天赋，而是人人都能学会的技巧。","category":"成长"},
-  {"id":"20","title":"红楼梦","author":"曹雪芹","cover":"https://img2.doubanio.com/view/subject/l/public/s1070959.jpg","description":"以贾、史、王、薛四大家族的兴衰为背景，以贾宝玉与林黛玉、薛宝钗的爱情婚姻悲剧为主线，描绘了中国封建社会的末世画卷。中国古典文学巅峰。","reason":"中国文学的巅峰，没有之一。一生至少完整读一次，每次重读都有新发现。豆瓣评分9.8。","category":"文学"},
-  {"id":"21","title":"动物农场","author":"乔治·奥威尔","cover":"https://img2.doubanio.com/view/subject/l/public/s2347590.jpg","description":"一个农场的动物不堪人类压迫，奋起反抗赶走农场主，建立起一个平等的动物社会。但猪群逐渐攫取权力，最终变成了比人类更可怕的统治者。","reason":"用最简短的寓言讲透了权力的本质——「所有动物一律平等，但有些动物更平等。」","category":"小说"},
-  {"id":"22","title":"霍乱时期的爱情","author":"加西亚·马尔克斯","cover":"https://img2.doubanio.com/view/subject/l/public/s1128411.jpg","description":"弗洛伦蒂诺·阿里萨等了费尔明娜·达萨53年7个月零11天。这部光芒闪耀的小说写尽了爱情的可能性——忠贞的、隐秘的、粗暴的、羞怯的、柏拉图式的。","reason":"人类有史以来最伟大的爱情小说。跨越半个世纪的等待，告诉你什么是真正的爱。豆瓣评分9.0。","category":"文学"},
-  {"id":"23","title":"许三观卖血记","author":"余华","cover":"https://img2.doubanio.com/view/subject/l/public/s1074294.jpg","description":"丝厂工人许三观靠着卖血渡过了人生一个又一个难关——娶妻、救子、饥荒。用黑色幽默写尽了底层人物的悲欢与尊严。","reason":"苦难叙事中开出黑色幽默的花，笑着笑着就哭了。余华最好的作品之一。","category":"文学"},
-  {"id":"24","title":"悉达多","author":"赫尔曼·黑塞","cover":"https://img2.doubanio.com/view/subject/l/public/s1668482.jpg","description":"婆罗门之子悉达多离开优渥的家庭，踏上寻求自我之路。他做过苦行僧、与佛陀对话、沉溺世俗享乐、最终在河边悟道。","reason":"给焦虑现代人的一剂解药。关于一个人如何找到真正属于自己的路。豆瓣评分9.3。","category":"哲学"},
-  {"id":"25","title":"乡土中国","author":"费孝通","cover":"https://img2.doubanio.com/view/subject/l/public/s2163467.jpg","description":"社会学大师费孝通的经典之作，用「差序格局」「礼治秩序」「男女有别」等概念精准剖析中国传统社会的结构与人际关系逻辑。","reason":"理解中国社会与人情世故必读的一本书，篇幅不长但密度极大。豆瓣评分9.2。","category":"社科"},
-  {"id":"26","title":"刀锋","author":"毛姆","cover":"https://img2.doubanio.com/view/subject/l/public/s29113545.jpg","description":"一战飞行员拉里·达雷尔在战争中目睹战友牺牲后，放弃优渥生活，踏上探索人生终极意义的旅程。从巴黎到印度，他在东西方智慧中寻找答案。","reason":"当所有人都在追求六便士时，有人抬头看月亮。关于什么才是值得过的人生。","category":"小说"},
-  {"id":"27","title":"娱乐至死","author":"尼尔·波兹曼","cover":"https://img2.doubanio.com/view/subject/l/public/s10054264.jpg","description":"媒介文化研究经典——当一切公共话语都以娱乐方式出现，当政治、宗教、教育都沦为娱乐的附庸，我们将成为一个「娱乐至死」的物种。","reason":"1985年写的书，精准预言了短视频时代的今天。读完后你会重新审视自己的屏幕时间。","category":"社科"},
-  {"id":"28","title":"基督山伯爵","author":"大仲马","cover":"https://img2.doubanio.com/view/subject/l/public/s3242016.jpg","description":"年轻水手爱德蒙·唐泰斯被陷害入狱14年，在狱中获得宝藏秘密后越狱，化身基督山伯爵，对仇人展开精密的复仇计划。","reason":"人类文学史上最伟大的复仇故事，爽文鼻祖。一旦翻开就无法放下。豆瓣评分9.2。","category":"文学"},
-  {"id":"29","title":"罪与罚","author":"陀思妥耶夫斯基","cover":"https://img2.doubanio.com/view/subject/l/public/s1675105.jpg","description":"穷大学生拉斯柯尼科夫杀死放高利贷的老太婆后，陷入痛苦的精神煎熬。这是一部关于犯罪心理、道德困境和灵魂救赎的巨著。","reason":"人类文学史上最深刻的心理小说。陀思妥耶夫斯基带你走进一个杀人犯的内心。","category":"文学"},
-  {"id":"30","title":"你当像鸟飞往你的山","author":"塔拉·韦斯特弗","cover":"https://img2.doubanio.com/view/subject/l/public/s33523953.jpg","description":"作者17岁前从未上过学，在极端摩门教家庭长大。通过自学考上大学，最终获得剑桥大学博士学位。这是一个关于教育如何重塑人生的真实故事。","reason":"教育不是灌输，而是点燃火焰。这本书让你相信——人可以彻底重塑自己。豆瓣评分8.9。","category":"传记"},
-  {"id":"31","title":"看见","author":"柴静","cover":"https://img2.doubanio.com/view/subject/l/public/s22669207.jpg","description":"央视记者柴静讲述十年记者生涯中亲历的重大事件——非典、汶川地震、北京奥运、征地拆迁——以及她如何在报道中不断追问和思考。","reason":"中国新闻纪实最好的作品之一。在信息碎片化的今天，教你如何「看见」真相。豆瓣评分8.8。","category":"社科"},
-  {"id":"32","title":"肖申克的救赎","author":"斯蒂芬·金","cover":"https://img2.doubanio.com/view/subject/l/public/s2783445.jpg","description":"银行家安迪被冤枉入狱，在肖申克监狱中用20年时间策划了一场不可思议的越狱。同名电影常年霸占IMDb榜首。","reason":"希望是好事，也许是世间最好的事，而好事永远不会消逝。","category":"小说"},
-  {"id":"33","title":"被讨厌的勇气","author":"岸见一郎 / 古贺史健","cover":"https://img2.doubanio.com/view/subject/l/public/s28382851.jpg","description":"以青年与哲人对话的形式解读阿德勒心理学——你的不幸是自己选择的，真正的自由是拥有被讨厌的勇气。","reason":"颠覆「原因论」的思维革命。如果你总在意别人的看法，这本书会彻底解放你。豆瓣评分8.6。","category":"心理学"},
-  {"id":"34","title":"枪炮、病菌与钢铁","author":"贾雷德·戴蒙德","cover":"https://img2.doubanio.com/view/subject/l/public/s1034104.jpg","description":"为什么是欧亚大陆征服了美洲，而不是反过来？作者从地理、生物学角度揭示了过去13000年人类社会不平等的根本原因。","reason":"普利策奖获奖作品。读完你会用全新视角理解历史、文明与人类命运。豆瓣评分8.8。","category":"历史"},
-  {"id":"35","title":"飘","author":"玛格丽特·米切尔","cover":"https://img2.doubanio.com/view/subject/l/public/s1070932.jpg","description":"美国南北战争时期，庄园主女儿斯嘉丽在乱世中挣扎求生的故事。她从娇纵的南方美人蜕变成坚韧的女性，在废墟中重建生活。","reason":"乱世佳人的生存教科书。「明天又是新的一天」——永不过时的韧性宣言。豆瓣评分9.3。","category":"文学"},
-  {"id":"36","title":"了不起的盖茨比","author":"菲茨杰拉德","cover":"https://img2.doubanio.com/view/subject/l/public/s1007228.jpg","description":"神秘富豪盖茨比在长岛豪宅夜夜笙歌，只为吸引对岸的旧情人黛西。这是一个关于美国梦、爱情、阶级与幻灭的完美小说。","reason":"「于是我们奋力前行，逆水行舟，不断被推回到过去。」最精美的美国小说。豆瓣评分8.7。","category":"文学"},
-  {"id":"37","title":"黄金时代","author":"王小波","cover":"https://img2.doubanio.com/view/subject/l/public/s1086383.jpg","description":"知青王二在云南农场的荒诞经历，以一种黑色幽默且自由奔放的笔调，写尽特殊年代里个人的欲望、反抗与生命力。","reason":"王小波最自由奔放的作品。「我觉得自己会永远生猛下去，什么也锤不了我。」","category":"文学"},
-  {"id":"38","title":"社会性动物","author":"艾略特·阿伦森","cover":"https://img2.doubanio.com/view/subject/l/public/s28025997.jpg","description":"社会心理学领域最经典的教材之一，用严谨的实验和生动的案例揭示从众、说服、偏见、攻击、吸引等人际互动背后的心理机制。","reason":"美国社会心理学「圣经」。读完你终于理解为什么人会做出匪夷所思的事。豆瓣评分9.1。","category":"心理学"},
-  {"id":"39","title":"自卑与超越","author":"阿尔弗雷德·阿德勒","cover":"https://img2.doubanio.com/view/subject/l/public/s28007225.jpg","description":"个体心理学创始人阿德勒的代表作——自卑感是人类进步的动力源泉，关键在于如何将自卑转化为追求卓越的力量。","reason":"理解自己行为模式的钥匙。阿德勒说：真正的意义在于对他人和社会的贡献。","category":"心理学"},
-  {"id":"40","title":"牧羊少年奇幻之旅","author":"保罗·柯艾略","cover":"https://img2.doubanio.com/view/subject/l/public/s3695883.jpg","description":"西班牙牧羊少年圣地亚哥因重复做同一个梦，踏上寻找埃及金字塔下宝藏的旅程。一路上他学会了倾听自己的心，理解世界的语言。","reason":"当你真心渴望某样东西时，整个宇宙都会联合起来帮助你。最温柔的追梦之书。","category":"小说"},
-  {"id":"41","title":"沉默的大多数","author":"王小波","cover":"https://img2.doubanio.com/view/subject/l/public/s1442299.jpg","description":"王小波杂文自选集，以幽默犀利的笔调讨论思想自由、知识分子责任、科学与迷信、东西方文化差异等话题。","reason":"「自从我辈成人以来，所见到的一切都是颠倒的。」读过王小波，就再也受不了蠢话。豆瓣评分9.0。","category":"社科"},
-  {"id":"42","title":"呐喊","author":"鲁迅","cover":"https://img2.doubanio.com/view/subject/l/public/s1070958.jpg","description":"鲁迅第一部短篇小说集，收录《狂人日记》《孔乙己》《药》《阿Q正传》等14篇名作，以锋利的笔触解剖中国社会的灵魂。","reason":"「我在年青时候也曾经做过许多梦，后来大半忘却了。」鲁迅永远不过时。豆瓣评分9.1。","category":"文学"},
-  {"id":"43","title":"时间简史","author":"斯蒂芬·霍金","cover":"https://img2.doubanio.com/view/subject/l/public/s1020211.jpg","description":"霍金用通俗语言讲述宇宙的起源、黑洞、时间旅行等前沿物理话题，将最艰深的宇宙学变成大众可以享受的思想盛宴。","reason":"全球销量超2500万册的科学经典。让你在仰望星空时不止于感叹「好美」。豆瓣评分8.8。","category":"科技"},
-  {"id":"44","title":"富爸爸穷爸爸","author":"罗伯特·清崎","cover":"https://img2.doubanio.com/view/subject/l/public/s1016185.jpg","description":"作者有两个爸爸——亲生父亲（穷爸爸）和好友的父亲（富爸爸）。两位爸爸对金钱的看法截然不同，最终决定了他们截然不同的命运。","reason":"最经典的财商启蒙书。改变几百万人的金钱观——让钱为你工作，而不是你为钱工作。","category":"商业"},
-  {"id":"45","title":"影响力","author":"罗伯特·西奥迪尼","cover":"https://img2.doubanio.com/view/subject/l/public/s1627935.jpg","description":"社会心理学经典——揭示了说服他人的六大原则：互惠、承诺一致、社会认同、喜好、权威、稀缺。每个原则背后都有大量实验支撑。","reason":"读完你会发现，生活中处处是这些原则在起作用——销售、广告、人际关系，无处不在。豆瓣评分8.8。","category":"心理学"},
-  {"id":"46","title":"鼠疫","author":"阿尔贝·加缪","cover":"https://img2.doubanio.com/view/subject/l/public/s29075816.jpg","description":"阿尔及利亚城市奥兰突然爆发鼠疫，全城封锁。里厄医生带领少数人奋力抗争。加缪用一场瘟疫隐喻人类面对荒诞时的反抗精神。","reason":"疫情后重读格外震撼。「在人的身上，值得赞扬的东西总是多于应该蔑视的东西。」豆瓣评分9.0。","category":"哲学"},
-  {"id":"47","title":"边城","author":"沈从文","cover":"https://img2.doubanio.com/view/subject/l/public/s1005675.jpg","description":"川湘交界的边城小镇茶峒，船家少女翠翠与兄弟俩天保和傩送之间纯真而忧伤的爱情故事。沈从文用最干净的文字描绘最美的乡土中国。","reason":"中国现代文学中最纯净优美的小说。读完心会变得很柔软。豆瓣评分8.9。","category":"文学"},
-  {"id":"48","title":"自控力","author":"凯利·麦格尼格尔","cover":"https://img2.doubanio.com/view/subject/l/public/s6984468.jpg","description":"斯坦福大学最受欢迎的心理学课程——自控力不是一种固定品质，而是可以被训练的能力。从神经科学角度告诉你如何管理压力、抵制诱惑。","reason":"如果你想搞定拖延症、戒掉坏习惯、达成目标——这本书是科学实用的行动指南。","category":"成长"},
-  {"id":"49","title":"白夜行","author":"东野圭吾","cover":"https://img2.doubanio.com/view/subject/l/public/s4610502.jpg","description":"1973年大阪，一栋废弃建筑内发现一具男尸。此后19年间，嫌疑人之女雪穗与被害人之子亮司走上截然不同的人生道路。两人一个在白天行走，一个在暗夜徘徊。","reason":"东野圭吾巅峰之作。读完最后一页你会倒吸一口凉气——原来所有的拼图早已摆在你面前。豆瓣评分9.1。","category":"推理"},
-  {"id":"50","title":"嫌疑人X的献身","author":"东野圭吾","cover":"https://img2.doubanio.com/view/subject/l/public/s3263491.jpg","description":"数学天才石神为保护暗恋的邻居花冈靖子，设计了一个完美的不在场证明。物理学家汤川学与昔日好友石神展开了一场天才之间的巅峰对决。","reason":"史上唯一同时获得直木奖、本格推理大奖和三大推理小说排行榜第一的作品。最极致最悲怆的诡计。豆瓣评分9.0。","category":"推理"},
-  {"id":"51","title":"上帝掷骰子吗","author":"曹天元","cover":"https://img2.doubanio.com/view/subject/l/public/s1753213.jpg","description":"从赫兹发现电磁波到超弦理论，用最生动的语言讲述量子力学三百年的壮丽史诗。波粒战争、薛定谔的猫、平行宇宙——科学家们如何一步步揭开微观世界的神秘面纱。","reason":"中国最好的科普书。比小说还精彩的科学史，读完对「现实」的理解会被彻底刷新。豆瓣评分9.0。","category":"科技"},
-  {"id":"52","title":"亲密关系","作者":"罗兰·米勒","cover":"https://img2.doubanio.com/view/subject/l/public/s28382705.jpg","description":"综合心理学、社会学、沟通研究的最新成果，系统探讨了吸引、爱情、婚姻、嫉妒、冲突、权力等亲密关系的方方面面。信息量和可读性俱佳。","reason":"如果你只能读一本关于爱情和婚姻的书，请读这本。科学、全面，没有鸡汤。豆瓣评分9.3。","category":"心理学"},
-  {"id":"53","title":"人生的智慧","author":"叔本华","cover":"https://img2.doubanio.com/view/subject/l/public/s2166856.jpg","description":"叔本华晚年写就的幸福哲学——人是什么、人拥有什么、人在他人眼中是什么。他用冷峻而优雅的文字，探讨如何尽可能幸福地度过一生。","reason":"悲观主义哲学家写的最实用的幸福指南。年轻时读和中年读完全是两本书。豆瓣评分9.2。","category":"哲学"},
-  {"id":"54","title":"流浪地球","author":"刘慈欣","cover":"https://img2.doubanio.com/view/subject/l/public/s29608312.jpg","description":"太阳即将毁灭，人类在地球表面建造巨型推进器，开启长达2500年的星际流浪。同名电影开创中国科幻电影新纪元。","reason":"带着地球去流浪——只有中国人才能想出来的末日方案。刘慈欣最浪漫的中篇。","category":"科幻"},
-  {"id":"55","title":"海伯利安","author":"丹·西蒙斯","cover":"https://img2.doubanio.com/view/subject/l/public/s1132442.jpg","description":"在银河帝国濒临灭亡的前夜，七名朝圣者前往海伯利安星球的「光阴冢」。途中每人讲述一个故事——牧师、士兵、诗人、学者、侦探、领事、圣堂武士。","reason":"太空歌剧的巅峰，科幻界的《坎特伯雷故事集》。读完你会跪着推荐给所有人。豆瓣评分9.2。","category":"科幻"},
-  {"id":"56","title":"银河系搭车客指南","author":"道格拉斯·亚当斯","cover":"https://img2.doubanio.com/view/subject/l/public/s3695884.jpg","description":"地球被毁前30秒，亚瑟·登特被外星好友救上一艘宇宙飞船，开始了一段荒诞至极的银河系漫游。毛巾是全宇宙最有用的物品，42是生命宇宙及一切的答案。","reason":"史上最欢乐的科幻小说。如果你觉得科幻都是严肃沉重的，这本书会颠覆你。","category":"科幻"},
-  {"id":"57","title":"永恒的终结","author":"艾萨克·阿西莫夫","cover":"https://img2.doubanio.com/view/subject/l/public/s27218160.jpg","description":"24世纪，人类发明了时间力场，成立「永恒时空」组织穿梭于各个世纪修改历史、消除灾难。但技术员哈伦在一次次穿越中发现了这个系统最深的秘密。","reason":"关于时间旅行最好的小说。阿西莫夫用一个爱情故事击穿你对时间、因果和自由意志的全部认知。豆瓣评分9.0。","category":"科幻"},
-  {"id":"58","title":"平面国","author":"埃德温·艾勃特","cover":"https://img2.doubanio.com/view/subject/l/public/s28351472.jpg","description":"1884年出版的奇书——一个二维平面国度的正方形居民，某天遇到了来自三维世界的访客。他用尽一切努力试图让自己的同胞理解「向上而非向北」的含义。","reason":"100多年前写就的多维空间启蒙书。读完你再也不会用同样的眼光看世界。豆瓣评分9.2。","category":"科幻"},
-  {"id":"59","title":"沉默的巡游","author":"东野圭吾","cover":"https://img2.doubanio.com/view/subject/l/public/s33747504.jpg","description":"一个备受喜爱的女孩失踪三年后尸体被发现，嫌疑人却因沉默而逃脱法律制裁。女孩的亲友们决定用自己的方式复仇——一场集体沉默的巡游。","reason":"东野圭吾「神探伽利略」系列最重磅回归之作，回归本格推理的王道。豆瓣评分7.8。","category":"推理"},
-  {"id":"60","title":"无人生还","author":"阿加莎·克里斯蒂","cover":"https://img2.doubanio.com/view/subject/l/public/s23832756.jpg","description":"十个互不相识的人被邀请到孤岛上，留声机突然播报每个人的罪行。随后，他们按照一首童谣的预言逐一死去。凶手就在他们之中——而岛上没有其他人。","reason":"推理女王最经典的作品，暴风雪山庄模式的开山之作。看完你会疯狂安利给所有人。豆瓣评分9.0。","category":"推理"},
-  {"id":"61","title":"东方快车谋杀案","author":"阿加莎·克里斯蒂","cover":"https://img2.doubanio.com/view/subject/l/public/s1026616.jpg","description":"大雪封路，东方快车被困途中。第二天早上，一名乘客被发现身中12刀死在包厢内。大侦探波洛必须在有限的时间里找出真凶。","reason":"推理史上最著名的结局之一。当你以为猜到了真相时，阿加莎会给你一个更大的震撼。豆瓣评分9.0。","category":"推理"},
-  {"id":"62","title":"高效能人士的七个习惯","author":"史蒂芬·柯维","cover":"https://img2.doubanio.com/view/subject/l/public/s1018070.jpg","description":"全球销量超4000万册的个人管理经典。从「积极主动」「以终为始」「要事第一」到「双赢思维」「知彼解己」「统合综效」「不断更新」。","reason":"不是鸡汤，是一套可以操作的个人效能系统。每年重读一遍都不会过时。豆瓣评分8.6。","category":"成长"},
-  {"id":"63","title":"如何阅读一本书","author":"莫提默·艾德勒","cover":"https://img2.doubanio.com/view/subject/l/public/s1005693.jpg","description":"系统讲述阅读的四个层次：基础阅读、检视阅读、分析阅读、主题阅读。教你如何从一本书中榨取最大价值，而不是被动地翻页。","reason":"「读了很多书却好像什么也没记住？」——答案就在这本书里。豆瓣评分8.4。","category":"成长"},
-  {"id":"64","title":"原则","author":"瑞·达利欧","cover":"https://img2.doubanio.com/view/subject/l/public/s29243231.jpg","description":"桥水基金创始人达利欧的人生经验之作——他用一套透明的、系统化的原则管理着全球最大的对冲基金。书中分享了生活原则和工作原则两大体系。","reason":"一个极度理性的人如何做决策。你可以不同意他的结论，但不能不佩服他的坦诚。","category":"商业"},
-  {"id":"65","title":"贫穷的本质","author":"阿比吉特·班纳吉 / 埃斯特·迪弗洛","cover":"https://img2.doubanio.com/view/subject/l/public/s29085483.jpg","description":"2019年诺贝尔经济学奖得主的代表作——为什么穷人吃不饱饭还要买电视？为什么孩子上了学却学不到东西？用随机对照实验重新理解贫穷。","reason":"诺贝尔经济学奖级别的洞见。彻底颠覆你对贫穷的刻板印象和「何不食肉糜」式的想象。豆瓣评分7.8。","category":"商业"},
-  {"id":"66","title":"资本论","author":"卡尔·马克思","cover":"https://img2.doubanio.com/view/subject/l/public/s1103214.jpg","description":"马克思毕生研究的结晶，以剩余价值理论为核心，揭示了资本主义生产方式的运行规律和内在矛盾。历史上影响最深远的政治经济学著作。","reason":"与其听别人告诉你什么是马克思主义，不如亲自读一读。这是改变世界的一本书。豆瓣评分9.1。","category":"社科"},
-  {"id":"67","title":"乌合之众","author":"古斯塔夫·勒庞","cover":"https://img2.doubanio.com/view/subject/l/public/s1011653.jpg","description":"群体心理学开山之作——当个人融入群体时，理性消失、情绪传染、判断力下降。研究群体行为对理解政治运动、网络暴力、社会潮流至关重要。","reason":"1895年的书精准描绘了2025年的网络世界。读完你会重新看待每一个热搜事件。豆瓣评分8.3。","category":"社科"},
-  {"id":"68","title":"置身事内","author":"兰小欢","cover":"https://img2.doubanio.com/view/subject/l/public/s33989360.jpg","description":"复旦大学兰小欢教授用通俗易懂的语言解读中国经济发展中的政府角色——土地财政、地方债、产业政策、城市化。不是赞美也不是批判，而是「置身事内」的冷静分析。","reason":"2021年现象级畅销书。读懂中国经济的必读之作，深入浅出，毫无学究气。豆瓣评分9.1。","category":"社科"},
-  {"id":"69","title":"叫魂","author":"孔飞力","cover":"https://img2.doubanio.com/view/subject/l/public/s1015860.jpg","description":"1768年，一场「叫魂」巫术恐慌从江南席卷至大清帝国全境，连乾隆皇帝都被卷入其中。三个历史切片——底层民众、官僚体系、皇帝——展现了一个帝国如何被谣言驱动。","reason":"「太阳底下无新事」——读完你会发现，网络谣言、社会恐慌、官僚推诿这一套两百年前就上演过了。","category":"历史"},
-  {"id":"70","title":"邓小平时代","author":"傅高义","cover":"https://img2.doubanio.com/view/subject/l/public/s22669019.jpg","description":"哈佛大学傅高义教授倾十年心力完成的巨著，对邓小平跌宕起伏的一生以及中国改革开放之路进行了全景式描述。","reason":"了解当代中国从何处来、如何走到今天的必读之书。客观、翔实、引人深思。豆瓣评分9.2。","category":"历史"},
-  {"id":"71","title":"Guns, Germs, and Steel","author":"Jared Diamond","cover":"https://img2.doubanio.com/view/subject/l/public/s1034104.jpg","description":"Pulitzer Prize-winning examination of why Eurasian civilizations conquered the world rather than the other way around. Geography, biology, and environmental factors—not racial superiority—shaped human history.","reason":"A book that fundamentally changes how you think about history, civilization, and inequality. 普利策奖获奖作品。","category":"历史"},
-  {"id":"72","title":"史蒂夫·乔布斯传","author":"沃尔特·艾萨克森","cover":"https://img2.doubanio.com/view/subject/l/public/s6510366.jpg","description":"唯一经乔布斯本人授权的官方传记。艾萨克森在两年多时间里与乔布斯进行了40多次面对面访谈，采访了100多位亲友同事，呈现了一个完整的乔布斯。","reason":"关于创新、完美主义和改变世界的最真实故事。乔布斯的偏执与天才同样令人震撼。豆瓣评分8.9。","category":"传记"},
-  {"id":"73","title":"我们仨","author":"杨绛","cover":"https://img2.doubanio.com/view/subject/l/public/s1015872.jpg","description":"92岁的杨绛回忆与丈夫钱锺书、女儿钱瑗一家三口六十余年的生活点滴。从牛津留学到文革岁月，从一个「万里长梦」写起，深情克制，令人泪目。","reason":"世间好物不坚牢，彩云易散琉璃脆。最朴素的语言里藏着最深的爱。豆瓣评分9.0。","category":"传记"},
-  {"id":"74","title":"昨日的世界","author":"斯蒂芬·茨威格","cover":"https://img2.doubanio.com/view/subject/l/public/s1091596.jpg","description":"茨威格生前最后一部作品——回忆从一战前夕到二战爆发的欧洲黄金时代。他亲历了维也纳的文化鼎盛、巴黎的艺术繁华，也目睹了这一切如何在战火中灰飞烟灭。","reason":"一位欧洲知识分子写给逝去时代的情书和悼词。读完你会理解今天的和平有多珍贵。豆瓣评分9.3。","category":"传记"},
-  {"id":"75","title":"从0到1","author":"彼得·蒂尔","cover":"https://img2.doubanio.com/view/subject/l/public/s27997928.jpg","description":"PayPal创始人彼得·蒂尔的创业哲学——真正的创新是从0到1（创造新事物），而不是从1到N（复制已有模式）。竞争是失败者的游戏，垄断才是成功企业的目标。","reason":"硅谷最特立独行的思想者。每页都有让你停下来思考的洞见。","category":"商业"},
-  {"id":"76","title":"创新者的窘境","author":"克莱顿·克里斯坦森","cover":"https://img2.doubanio.com/view/subject/l/public/s27116859.jpg","description":"为什么管理良好的大公司会在颠覆性技术面前失败？因为「做对了所有事」恰恰是它们被淘汰的原因。颠覆性创新总是从低端市场发起，最终颠覆整个行业。","reason":"乔布斯和贝索斯都反复引用的经典。理解商业和技术变革的底层逻辑。","category":"商业"},
-  {"id":"77","title":"少有人走的路","author":"斯科特·派克","cover":"https://img2.doubanio.com/view/subject/l/public/s1003072.jpg","description":"心理医生派克以「人生苦难重重」开篇，用四部分——自律、爱、成长与宗教、神奇的力量——引导读者走上心智成熟的旅程。","reason":"畅销40年的心智成长圣经。「你不能解决问题，你就会成为问题。」豆瓣评分8.4。","category":"成长"},
-  {"id":"78","title":"原子习惯","author":"詹姆斯·克利尔","cover":"https://img2.doubanio.com/view/subject/l/public/s33680863.jpg","description":"每天进步1%，一年后你会强大37倍。作者用四大法则——让它显而易见、让它有吸引力、让它简单易行、让它令人满足——教你无痛建立好习惯、戒除坏习惯。","reason":"比《刻意练习》更落地、比《自控力》更系统。习惯养成领域最好的实操手册。豆瓣评分8.8。","category":"成长"},
-  {"id":"79","title":"学会提问","author":"尼尔·布朗","cover":"https://img2.doubanio.com/view/subject/l/public/s27949834.jpg","description":"批判性思维经典教材——如何识别论证中的谬误？如何评估证据的可靠性？如何区分事实与观点？一套系统的方法论，帮你在这个信息爆炸的时代保持清醒。","reason":"AI时代最需要的能力是提出好问题。这本书就是你的批判性思维训练手册。豆瓣评分8.6。","category":"成长"},
-  {"id":"80","title":"给青年的十二封信","author":"朱光潜","cover":"https://img2.doubanio.com/view/subject/l/public/s1005603.jpg","description":"美学大师朱光潜留学欧洲期间写给国内青年的十二封信，谈读书、谈静、谈人生、谈情与理、谈升学与选课。一本薄薄的小册子，字字珠玑。","reason":"写于1929年，近百年后读来依然振聋发聩。最好的「给年轻人的建议」，没有之一。豆瓣评分9.0。","category":"成长"}
+  {
+    "id": "1",
+    "title": "百年孤独",
+    "author": "加西亚·马尔克斯",
+    "cover": "/book-daily/covers/1.jpg",
+    "description": "魔幻现实主义代表作，描写布恩迪亚家族七代人的传奇故事，以及加勒比海沿岸小镇马孔多的百年兴衰，折射拉丁美洲一个世纪的风云变幻。",
+    "reason": "每个人都在用自己的方式对抗孤独，这本书让你重新理解时间、命运与家族的意义。",
+    "category": "文学"
+  },
+  {
+    "id": "2",
+    "title": "1984",
+    "author": "乔治·奥威尔",
+    "cover": "/book-daily/covers/2.jpg",
+    "description": "政治寓言小说，刻画了一个令人窒息的极权主义世界。主人公温斯顿在「真理部」每天篡改历史，内心却寻求真相与自由。",
+    "reason": "关于权力、真相与自由的终极警示，在信息爆炸的今天读来格外震撼。",
+    "category": "小说"
+  },
+  {
+    "id": "3",
+    "title": "活着",
+    "author": "余华",
+    "cover": "/book-daily/covers/3.jpg",
+    "description": "地主少爷福贵嗜赌成性，终于赌光了家业一贫如洗。穷困之中经历中国近现代社会的种种变迁，亲人相继离世，最后只剩一头老牛相伴。",
+    "reason": "用最朴素的语言讲述最深刻的人生——活着本身就是一种力量。豆瓣评分9.4。",
+    "category": "文学"
+  },
+  {
+    "id": "4",
+    "title": "人类简史",
+    "author": "尤瓦尔·赫拉利",
+    "cover": "/book-daily/covers/4.jpg",
+    "description": "从十万年前有生命迹象开始到21世纪，将人类从石器时代到科技革命的演化做了全景式梳理，颠覆你对「人类」这一物种的认知。",
+    "reason": "读完你会重新审视人类——我们如何走到今天，又将去向何方。豆瓣评分9.1。",
+    "category": "历史"
+  },
+  {
+    "id": "5",
+    "title": "小王子",
+    "author": "圣-埃克苏佩里",
+    "cover": "/book-daily/covers/5.jpg",
+    "description": "以飞行员叙述者讲述小王子从自己星球出发前往地球途中的历险。用孩子式的眼光透视成人的空虚与盲目。",
+    "reason": "每个大人都曾经是孩子，只是很少有人记得。疲惫时最适合重读的书。",
+    "category": "童话"
+  },
+  {
+    "id": "6",
+    "title": "三体",
+    "author": "刘慈欣",
+    "cover": "/book-daily/covers/6.jpg",
+    "description": "文化大革命如火如荼进行时，军方探寻外星文明的绝秘计划「红岸工程」取得突破。叶文洁按下发射键的那一刻，彻底改变了人类的命运。",
+    "reason": "中国科幻的巅峰之作，彻底颠覆你对宇宙、文明与道德的认知框架。豆瓣评分9.4。",
+    "category": "科幻"
+  },
+  {
+    "id": "7",
+    "title": "局外人",
+    "author": "阿尔贝·加缪",
+    "cover": "/book-daily/covers/7.jpg",
+    "description": "主人公默尔索对母亲的死、情人的爱、朋友的求助、自身的审判都表现出一种超然的冷漠——他是这个世界的「局外人」。",
+    "reason": "如果你曾对世界的规则感到格格不入，这本书会给你巨大的慰藉。存在主义经典。",
+    "category": "哲学"
+  },
+  {
+    "id": "8",
+    "title": "平凡的世界",
+    "author": "路遥",
+    "cover": "/book-daily/covers/8.jpg",
+    "description": "以中国70至80年代中期为背景，以孙少安和孙少平两兄弟为中心，刻画了社会各阶层众多普通人的劳动与爱情、挫折与追求。",
+    "reason": "在焦虑内卷的时代，回到那个物质贫乏却精神饱满的世界，获得久违的力量。",
+    "category": "文学"
+  },
+  {
+    "id": "9",
+    "title": "思考，快与慢",
+    "author": "丹尼尔·卡尼曼",
+    "cover": "/book-daily/covers/9.jpg",
+    "description": "诺贝尔经济学奖得主卡尼曼教授50多年研究的结晶，揭示人类思维中两个系统的运作方式：快速直觉的系统1和缓慢理性的系统2。",
+    "reason": "了解自己如何做决策，是做出更好决策的第一步。每页都有「原来如此」的顿悟。",
+    "category": "心理学"
+  },
+  {
+    "id": "10",
+    "title": "围城",
+    "author": "钱锺书",
+    "cover": "/book-daily/covers/10.jpg",
+    "description": "以留学生方鸿渐回国后的经历为主线，描绘抗战初期中国知识分子的群像。「围在城里的人想逃出来，城外的人想冲进去。」",
+    "reason": "中国现代文学中最幽默犀利的一本书，关于婚姻、职场与人性的洞察至今不过时。豆瓣评分9.2。",
+    "category": "文学"
+  },
+  {
+    "id": "11",
+    "title": "追风筝的人",
+    "author": "卡勒德·胡赛尼",
+    "cover": "/book-daily/covers/11.jpg",
+    "description": "12岁的阿富汗富家少爷阿米尔与仆人哈桑情同手足。一场风筝比赛后发生了一件悲惨的事，阿米尔为自己的懦弱自责，逼走了哈桑。",
+    "reason": "关于背叛与救赎的动人故事，「为你，千千万万遍」会刻在你心里。",
+    "category": "小说"
+  },
+  {
+    "id": "12",
+    "title": "苏菲的世界",
+    "author": "乔斯坦·贾德",
+    "cover": "/book-daily/covers/12.jpg",
+    "description": "14岁少女苏菲某天放学回家发现一封神秘来信——「你是谁？」在神秘导师引导下，她开始学习从古希腊到现代的哲学史。",
+    "reason": "最好的哲学入门书，用小说的外壳包裹了西方哲学史的全部精华。",
+    "category": "哲学"
+  },
+  {
+    "id": "13",
+    "title": "月亮和六便士",
+    "author": "毛姆",
+    "cover": "/book-daily/covers/13.jpg",
+    "description": "英国证券交易所的经纪人突然抛弃稳定工作和家庭，去巴黎追求绘画理想。他的原型是画家高更。",
+    "reason": "当理想与现实冲突时，你敢不敢把一切押注在真正热爱的事上？",
+    "category": "小说"
+  },
+  {
+    "id": "14",
+    "title": "非暴力沟通",
+    "author": "马歇尔·卢森堡",
+    "cover": "/book-daily/covers/14.jpg",
+    "description": "一种以「观察—感受—需要—请求」为核心的沟通方式，帮助我们化解人际冲突，建立真诚的连接，让爱融入生活。",
+    "reason": "90%的人际矛盾都可以用四个步骤化解。最实用的心理学书之一。",
+    "category": "心理学"
+  },
+  {
+    "id": "15",
+    "title": "杀死一只知更鸟",
+    "author": "哈珀·李",
+    "cover": "/book-daily/covers/15.jpg",
+    "description": "大萧条时期美国南方小镇，律师阿提克斯为被指控强奸白人女子的黑人辩护，他的两个孩子也在事件中经历了善恶的考验与成长。",
+    "reason": "关于勇气、正义和同理心的最好教材——「你永远不可能真正了解一个人，除非你站在他的角度。」豆瓣评分9.2。",
+    "category": "小说"
+  },
+  {
+    "id": "16",
+    "title": "万历十五年",
+    "author": "黄仁宇",
+    "cover": "/book-daily/covers/16.jpg",
+    "description": "以1587年（万历十五年）为切入点，通过万历皇帝、张居正、海瑞、戚继光等人物命运，展现了中国传统社会运行的深层逻辑。",
+    "reason": "读历史最好的入门书——你会发现很多「现代问题」几百年前已有答案。",
+    "category": "历史"
+  },
+  {
+    "id": "17",
+    "title": "黑客与画家",
+    "author": "保罗·格雷厄姆",
+    "cover": "/book-daily/covers/17.jpg",
+    "description": "硅谷创业教父保罗·格雷厄姆的文集，探讨黑客精神、创业思维、编程语言设计、财富创造等话题，颠覆你对技术和商业的认知。",
+    "reason": "程序员必读，但不止于程序员——关于如何思考、如何创造、如何理解世界。",
+    "category": "科技"
+  },
+  {
+    "id": "18",
+    "title": "挪威的森林",
+    "author": "村上春树",
+    "cover": "/book-daily/covers/18.jpg",
+    "description": "渡边在飞机上听到披头士的《挪威的森林》，回忆起18年前与两个女孩——直子和绿子之间的爱情纠葛。一部关于青春、爱与死亡的成长小说。",
+    "reason": "村上春树最深入人心的作品，每个人都能在里面找到自己的影子。",
+    "category": "小说"
+  },
+  {
+    "id": "19",
+    "title": "刻意练习",
+    "author": "安德斯·艾利克森",
+    "cover": "/book-daily/covers/19.jpg",
+    "description": "心理学家艾利克森潜心几十年研究各行业专家级人物，发现「天才」的背后其实是「刻意练习」——有目标的、专注的、有反馈的、走出舒适区的练习。",
+    "reason": "打破「天赋决定论」的最有力证据——杰出不是天赋，而是人人都能学会的技巧。",
+    "category": "成长"
+  },
+  {
+    "id": "20",
+    "title": "红楼梦",
+    "author": "曹雪芹",
+    "cover": "/book-daily/covers/20.jpg",
+    "description": "以贾、史、王、薛四大家族的兴衰为背景，以贾宝玉与林黛玉、薛宝钗的爱情婚姻悲剧为主线，描绘了中国封建社会的末世画卷。中国古典文学巅峰。",
+    "reason": "中国文学的巅峰，没有之一。一生至少完整读一次，每次重读都有新发现。豆瓣评分9.8。",
+    "category": "文学"
+  },
+  {
+    "id": "21",
+    "title": "动物农场",
+    "author": "乔治·奥威尔",
+    "cover": "/book-daily/covers/21.jpg",
+    "description": "一个农场的动物不堪人类压迫，奋起反抗赶走农场主，建立起一个平等的动物社会。但猪群逐渐攫取权力，最终变成了比人类更可怕的统治者。",
+    "reason": "用最简短的寓言讲透了权力的本质——「所有动物一律平等，但有些动物更平等。」",
+    "category": "小说"
+  },
+  {
+    "id": "22",
+    "title": "霍乱时期的爱情",
+    "author": "加西亚·马尔克斯",
+    "cover": "/book-daily/covers/22.jpg",
+    "description": "弗洛伦蒂诺·阿里萨等了费尔明娜·达萨53年7个月零11天。这部光芒闪耀的小说写尽了爱情的可能性——忠贞的、隐秘的、粗暴的、羞怯的、柏拉图式的。",
+    "reason": "人类有史以来最伟大的爱情小说。跨越半个世纪的等待，告诉你什么是真正的爱。豆瓣评分9.0。",
+    "category": "文学"
+  },
+  {
+    "id": "23",
+    "title": "许三观卖血记",
+    "author": "余华",
+    "cover": "/book-daily/covers/23.jpg",
+    "description": "丝厂工人许三观靠着卖血渡过了人生一个又一个难关——娶妻、救子、饥荒。用黑色幽默写尽了底层人物的悲欢与尊严。",
+    "reason": "苦难叙事中开出黑色幽默的花，笑着笑着就哭了。余华最好的作品之一。",
+    "category": "文学"
+  },
+  {
+    "id": "24",
+    "title": "悉达多",
+    "author": "赫尔曼·黑塞",
+    "cover": "/book-daily/covers/24.jpg",
+    "description": "婆罗门之子悉达多离开优渥的家庭，踏上寻求自我之路。他做过苦行僧、与佛陀对话、沉溺世俗享乐、最终在河边悟道。",
+    "reason": "给焦虑现代人的一剂解药。关于一个人如何找到真正属于自己的路。豆瓣评分9.3。",
+    "category": "哲学"
+  },
+  {
+    "id": "25",
+    "title": "乡土中国",
+    "author": "费孝通",
+    "cover": "/book-daily/covers/25.jpg",
+    "description": "社会学大师费孝通的经典之作，用「差序格局」「礼治秩序」「男女有别」等概念精准剖析中国传统社会的结构与人际关系逻辑。",
+    "reason": "理解中国社会与人情世故必读的一本书，篇幅不长但密度极大。豆瓣评分9.2。",
+    "category": "社科"
+  },
+  {
+    "id": "26",
+    "title": "刀锋",
+    "author": "毛姆",
+    "cover": "/book-daily/covers/26.jpg",
+    "description": "一战飞行员拉里·达雷尔在战争中目睹战友牺牲后，放弃优渥生活，踏上探索人生终极意义的旅程。从巴黎到印度，他在东西方智慧中寻找答案。",
+    "reason": "当所有人都在追求六便士时，有人抬头看月亮。关于什么才是值得过的人生。",
+    "category": "小说"
+  },
+  {
+    "id": "27",
+    "title": "娱乐至死",
+    "author": "尼尔·波兹曼",
+    "cover": "/book-daily/covers/27.jpg",
+    "description": "媒介文化研究经典——当一切公共话语都以娱乐方式出现，当政治、宗教、教育都沦为娱乐的附庸，我们将成为一个「娱乐至死」的物种。",
+    "reason": "1985年写的书，精准预言了短视频时代的今天。读完后你会重新审视自己的屏幕时间。",
+    "category": "社科"
+  },
+  {
+    "id": "28",
+    "title": "基督山伯爵",
+    "author": "大仲马",
+    "cover": "/book-daily/covers/28.jpg",
+    "description": "年轻水手爱德蒙·唐泰斯被陷害入狱14年，在狱中获得宝藏秘密后越狱，化身基督山伯爵，对仇人展开精密的复仇计划。",
+    "reason": "人类文学史上最伟大的复仇故事，爽文鼻祖。一旦翻开就无法放下。豆瓣评分9.2。",
+    "category": "文学"
+  },
+  {
+    "id": "29",
+    "title": "罪与罚",
+    "author": "陀思妥耶夫斯基",
+    "cover": "/book-daily/covers/29.jpg",
+    "description": "穷大学生拉斯柯尼科夫杀死放高利贷的老太婆后，陷入痛苦的精神煎熬。这是一部关于犯罪心理、道德困境和灵魂救赎的巨著。",
+    "reason": "人类文学史上最深刻的心理小说。陀思妥耶夫斯基带你走进一个杀人犯的内心。",
+    "category": "文学"
+  },
+  {
+    "id": "30",
+    "title": "你当像鸟飞往你的山",
+    "author": "塔拉·韦斯特弗",
+    "cover": "/book-daily/covers/30.jpg",
+    "description": "作者17岁前从未上过学，在极端摩门教家庭长大。通过自学考上大学，最终获得剑桥大学博士学位。这是一个关于教育如何重塑人生的真实故事。",
+    "reason": "教育不是灌输，而是点燃火焰。这本书让你相信——人可以彻底重塑自己。豆瓣评分8.9。",
+    "category": "传记"
+  },
+  {
+    "id": "31",
+    "title": "看见",
+    "author": "柴静",
+    "cover": "/book-daily/covers/31.jpg",
+    "description": "央视记者柴静讲述十年记者生涯中亲历的重大事件——非典、汶川地震、北京奥运、征地拆迁——以及她如何在报道中不断追问和思考。",
+    "reason": "中国新闻纪实最好的作品之一。在信息碎片化的今天，教你如何「看见」真相。豆瓣评分8.8。",
+    "category": "社科"
+  },
+  {
+    "id": "32",
+    "title": "肖申克的救赎",
+    "author": "斯蒂芬·金",
+    "cover": "/book-daily/covers/32.jpg",
+    "description": "银行家安迪被冤枉入狱，在肖申克监狱中用20年时间策划了一场不可思议的越狱。同名电影常年霸占IMDb榜首。",
+    "reason": "希望是好事，也许是世间最好的事，而好事永远不会消逝。",
+    "category": "小说"
+  },
+  {
+    "id": "33",
+    "title": "被讨厌的勇气",
+    "author": "岸见一郎 / 古贺史健",
+    "cover": "/book-daily/covers/33.jpg",
+    "description": "以青年与哲人对话的形式解读阿德勒心理学——你的不幸是自己选择的，真正的自由是拥有被讨厌的勇气。",
+    "reason": "颠覆「原因论」的思维革命。如果你总在意别人的看法，这本书会彻底解放你。豆瓣评分8.6。",
+    "category": "心理学"
+  },
+  {
+    "id": "34",
+    "title": "枪炮、病菌与钢铁",
+    "author": "贾雷德·戴蒙德",
+    "cover": "/book-daily/covers/34.jpg",
+    "description": "为什么是欧亚大陆征服了美洲，而不是反过来？作者从地理、生物学角度揭示了过去13000年人类社会不平等的根本原因。",
+    "reason": "普利策奖获奖作品。读完你会用全新视角理解历史、文明与人类命运。豆瓣评分8.8。",
+    "category": "历史"
+  },
+  {
+    "id": "35",
+    "title": "飘",
+    "author": "玛格丽特·米切尔",
+    "cover": "/book-daily/covers/35.jpg",
+    "description": "美国南北战争时期，庄园主女儿斯嘉丽在乱世中挣扎求生的故事。她从娇纵的南方美人蜕变成坚韧的女性，在废墟中重建生活。",
+    "reason": "乱世佳人的生存教科书。「明天又是新的一天」——永不过时的韧性宣言。豆瓣评分9.3。",
+    "category": "文学"
+  },
+  {
+    "id": "36",
+    "title": "了不起的盖茨比",
+    "author": "菲茨杰拉德",
+    "cover": "/book-daily/covers/36.jpg",
+    "description": "神秘富豪盖茨比在长岛豪宅夜夜笙歌，只为吸引对岸的旧情人黛西。这是一个关于美国梦、爱情、阶级与幻灭的完美小说。",
+    "reason": "「于是我们奋力前行，逆水行舟，不断被推回到过去。」最精美的美国小说。豆瓣评分8.7。",
+    "category": "文学"
+  },
+  {
+    "id": "37",
+    "title": "黄金时代",
+    "author": "王小波",
+    "cover": "/book-daily/covers/37.jpg",
+    "description": "知青王二在云南农场的荒诞经历，以一种黑色幽默且自由奔放的笔调，写尽特殊年代里个人的欲望、反抗与生命力。",
+    "reason": "王小波最自由奔放的作品。「我觉得自己会永远生猛下去，什么也锤不了我。」",
+    "category": "文学"
+  },
+  {
+    "id": "38",
+    "title": "社会性动物",
+    "author": "艾略特·阿伦森",
+    "cover": "/book-daily/covers/38.jpg",
+    "description": "社会心理学领域最经典的教材之一，用严谨的实验和生动的案例揭示从众、说服、偏见、攻击、吸引等人际互动背后的心理机制。",
+    "reason": "美国社会心理学「圣经」。读完你终于理解为什么人会做出匪夷所思的事。豆瓣评分9.1。",
+    "category": "心理学"
+  },
+  {
+    "id": "39",
+    "title": "自卑与超越",
+    "author": "阿尔弗雷德·阿德勒",
+    "cover": "/book-daily/covers/39.jpg",
+    "description": "个体心理学创始人阿德勒的代表作——自卑感是人类进步的动力源泉，关键在于如何将自卑转化为追求卓越的力量。",
+    "reason": "理解自己行为模式的钥匙。阿德勒说：真正的意义在于对他人和社会的贡献。",
+    "category": "心理学"
+  },
+  {
+    "id": "40",
+    "title": "牧羊少年奇幻之旅",
+    "author": "保罗·柯艾略",
+    "cover": "/book-daily/covers/40.jpg",
+    "description": "西班牙牧羊少年圣地亚哥因重复做同一个梦，踏上寻找埃及金字塔下宝藏的旅程。一路上他学会了倾听自己的心，理解世界的语言。",
+    "reason": "当你真心渴望某样东西时，整个宇宙都会联合起来帮助你。最温柔的追梦之书。",
+    "category": "小说"
+  },
+  {
+    "id": "41",
+    "title": "沉默的大多数",
+    "author": "王小波",
+    "cover": "/book-daily/covers/41.jpg",
+    "description": "王小波杂文自选集，以幽默犀利的笔调讨论思想自由、知识分子责任、科学与迷信、东西方文化差异等话题。",
+    "reason": "「自从我辈成人以来，所见到的一切都是颠倒的。」读过王小波，就再也受不了蠢话。豆瓣评分9.0。",
+    "category": "社科"
+  },
+  {
+    "id": "42",
+    "title": "呐喊",
+    "author": "鲁迅",
+    "cover": "/book-daily/covers/42.jpg",
+    "description": "鲁迅第一部短篇小说集，收录《狂人日记》《孔乙己》《药》《阿Q正传》等14篇名作，以锋利的笔触解剖中国社会的灵魂。",
+    "reason": "「我在年青时候也曾经做过许多梦，后来大半忘却了。」鲁迅永远不过时。豆瓣评分9.1。",
+    "category": "文学"
+  },
+  {
+    "id": "43",
+    "title": "时间简史",
+    "author": "斯蒂芬·霍金",
+    "cover": "/book-daily/covers/43.jpg",
+    "description": "霍金用通俗语言讲述宇宙的起源、黑洞、时间旅行等前沿物理话题，将最艰深的宇宙学变成大众可以享受的思想盛宴。",
+    "reason": "全球销量超2500万册的科学经典。让你在仰望星空时不止于感叹「好美」。豆瓣评分8.8。",
+    "category": "科技"
+  },
+  {
+    "id": "44",
+    "title": "富爸爸穷爸爸",
+    "author": "罗伯特·清崎",
+    "cover": "/book-daily/covers/44.jpg",
+    "description": "作者有两个爸爸——亲生父亲（穷爸爸）和好友的父亲（富爸爸）。两位爸爸对金钱的看法截然不同，最终决定了他们截然不同的命运。",
+    "reason": "最经典的财商启蒙书。改变几百万人的金钱观——让钱为你工作，而不是你为钱工作。",
+    "category": "商业"
+  },
+  {
+    "id": "45",
+    "title": "影响力",
+    "author": "罗伯特·西奥迪尼",
+    "cover": "/book-daily/covers/45.jpg",
+    "description": "社会心理学经典——揭示了说服他人的六大原则：互惠、承诺一致、社会认同、喜好、权威、稀缺。每个原则背后都有大量实验支撑。",
+    "reason": "读完你会发现，生活中处处是这些原则在起作用——销售、广告、人际关系，无处不在。豆瓣评分8.8。",
+    "category": "心理学"
+  },
+  {
+    "id": "46",
+    "title": "鼠疫",
+    "author": "阿尔贝·加缪",
+    "cover": "/book-daily/covers/46.jpg",
+    "description": "阿尔及利亚城市奥兰突然爆发鼠疫，全城封锁。里厄医生带领少数人奋力抗争。加缪用一场瘟疫隐喻人类面对荒诞时的反抗精神。",
+    "reason": "疫情后重读格外震撼。「在人的身上，值得赞扬的东西总是多于应该蔑视的东西。」豆瓣评分9.0。",
+    "category": "哲学"
+  },
+  {
+    "id": "47",
+    "title": "边城",
+    "author": "沈从文",
+    "cover": "/book-daily/covers/47.jpg",
+    "description": "川湘交界的边城小镇茶峒，船家少女翠翠与兄弟俩天保和傩送之间纯真而忧伤的爱情故事。沈从文用最干净的文字描绘最美的乡土中国。",
+    "reason": "中国现代文学中最纯净优美的小说。读完心会变得很柔软。豆瓣评分8.9。",
+    "category": "文学"
+  },
+  {
+    "id": "48",
+    "title": "自控力",
+    "author": "凯利·麦格尼格尔",
+    "cover": "/book-daily/covers/48.jpg",
+    "description": "斯坦福大学最受欢迎的心理学课程——自控力不是一种固定品质，而是可以被训练的能力。从神经科学角度告诉你如何管理压力、抵制诱惑。",
+    "reason": "如果你想搞定拖延症、戒掉坏习惯、达成目标——这本书是科学实用的行动指南。",
+    "category": "成长"
+  },
+  {
+    "id": "49",
+    "title": "白夜行",
+    "author": "东野圭吾",
+    "cover": "/book-daily/covers/49.jpg",
+    "description": "1973年大阪，一栋废弃建筑内发现一具男尸。此后19年间，嫌疑人之女雪穗与被害人之子亮司走上截然不同的人生道路。两人一个在白天行走，一个在暗夜徘徊。",
+    "reason": "东野圭吾巅峰之作。读完最后一页你会倒吸一口凉气——原来所有的拼图早已摆在你面前。豆瓣评分9.1。",
+    "category": "推理"
+  },
+  {
+    "id": "50",
+    "title": "嫌疑人X的献身",
+    "author": "东野圭吾",
+    "cover": "/book-daily/covers/50.jpg",
+    "description": "数学天才石神为保护暗恋的邻居花冈靖子，设计了一个完美的不在场证明。物理学家汤川学与昔日好友石神展开了一场天才之间的巅峰对决。",
+    "reason": "史上唯一同时获得直木奖、本格推理大奖和三大推理小说排行榜第一的作品。最极致最悲怆的诡计。豆瓣评分9.0。",
+    "category": "推理"
+  },
+  {
+    "id": "51",
+    "title": "上帝掷骰子吗",
+    "author": "曹天元",
+    "cover": "/book-daily/covers/51.jpg",
+    "description": "从赫兹发现电磁波到超弦理论，用最生动的语言讲述量子力学三百年的壮丽史诗。波粒战争、薛定谔的猫、平行宇宙——科学家们如何一步步揭开微观世界的神秘面纱。",
+    "reason": "中国最好的科普书。比小说还精彩的科学史，读完对「现实」的理解会被彻底刷新。豆瓣评分9.0。",
+    "category": "科技"
+  },
+  {
+    "id": "52",
+    "title": "亲密关系",
+    "作者": "罗兰·米勒",
+    "cover": "/book-daily/covers/52.jpg",
+    "description": "综合心理学、社会学、沟通研究的最新成果，系统探讨了吸引、爱情、婚姻、嫉妒、冲突、权力等亲密关系的方方面面。信息量和可读性俱佳。",
+    "reason": "如果你只能读一本关于爱情和婚姻的书，请读这本。科学、全面，没有鸡汤。豆瓣评分9.3。",
+    "category": "心理学"
+  },
+  {
+    "id": "53",
+    "title": "人生的智慧",
+    "author": "叔本华",
+    "cover": "/book-daily/covers/53.jpg",
+    "description": "叔本华晚年写就的幸福哲学——人是什么、人拥有什么、人在他人眼中是什么。他用冷峻而优雅的文字，探讨如何尽可能幸福地度过一生。",
+    "reason": "悲观主义哲学家写的最实用的幸福指南。年轻时读和中年读完全是两本书。豆瓣评分9.2。",
+    "category": "哲学"
+  },
+  {
+    "id": "54",
+    "title": "流浪地球",
+    "author": "刘慈欣",
+    "cover": "/book-daily/covers/54.jpg",
+    "description": "太阳即将毁灭，人类在地球表面建造巨型推进器，开启长达2500年的星际流浪。同名电影开创中国科幻电影新纪元。",
+    "reason": "带着地球去流浪——只有中国人才能想出来的末日方案。刘慈欣最浪漫的中篇。",
+    "category": "科幻"
+  },
+  {
+    "id": "55",
+    "title": "海伯利安",
+    "author": "丹·西蒙斯",
+    "cover": "/book-daily/covers/55.jpg",
+    "description": "在银河帝国濒临灭亡的前夜，七名朝圣者前往海伯利安星球的「光阴冢」。途中每人讲述一个故事——牧师、士兵、诗人、学者、侦探、领事、圣堂武士。",
+    "reason": "太空歌剧的巅峰，科幻界的《坎特伯雷故事集》。读完你会跪着推荐给所有人。豆瓣评分9.2。",
+    "category": "科幻"
+  },
+  {
+    "id": "56",
+    "title": "银河系搭车客指南",
+    "author": "道格拉斯·亚当斯",
+    "cover": "/book-daily/covers/56.jpg",
+    "description": "地球被毁前30秒，亚瑟·登特被外星好友救上一艘宇宙飞船，开始了一段荒诞至极的银河系漫游。毛巾是全宇宙最有用的物品，42是生命宇宙及一切的答案。",
+    "reason": "史上最欢乐的科幻小说。如果你觉得科幻都是严肃沉重的，这本书会颠覆你。",
+    "category": "科幻"
+  },
+  {
+    "id": "57",
+    "title": "永恒的终结",
+    "author": "艾萨克·阿西莫夫",
+    "cover": "/book-daily/covers/57.jpg",
+    "description": "24世纪，人类发明了时间力场，成立「永恒时空」组织穿梭于各个世纪修改历史、消除灾难。但技术员哈伦在一次次穿越中发现了这个系统最深的秘密。",
+    "reason": "关于时间旅行最好的小说。阿西莫夫用一个爱情故事击穿你对时间、因果和自由意志的全部认知。豆瓣评分9.0。",
+    "category": "科幻"
+  },
+  {
+    "id": "58",
+    "title": "平面国",
+    "author": "埃德温·艾勃特",
+    "cover": "/book-daily/covers/58.jpg",
+    "description": "1884年出版的奇书——一个二维平面国度的正方形居民，某天遇到了来自三维世界的访客。他用尽一切努力试图让自己的同胞理解「向上而非向北」的含义。",
+    "reason": "100多年前写就的多维空间启蒙书。读完你再也不会用同样的眼光看世界。豆瓣评分9.2。",
+    "category": "科幻"
+  },
+  {
+    "id": "59",
+    "title": "沉默的巡游",
+    "author": "东野圭吾",
+    "cover": "/book-daily/covers/59.jpg",
+    "description": "一个备受喜爱的女孩失踪三年后尸体被发现，嫌疑人却因沉默而逃脱法律制裁。女孩的亲友们决定用自己的方式复仇——一场集体沉默的巡游。",
+    "reason": "东野圭吾「神探伽利略」系列最重磅回归之作，回归本格推理的王道。豆瓣评分7.8。",
+    "category": "推理"
+  },
+  {
+    "id": "60",
+    "title": "无人生还",
+    "author": "阿加莎·克里斯蒂",
+    "cover": "/book-daily/covers/60.jpg",
+    "description": "十个互不相识的人被邀请到孤岛上，留声机突然播报每个人的罪行。随后，他们按照一首童谣的预言逐一死去。凶手就在他们之中——而岛上没有其他人。",
+    "reason": "推理女王最经典的作品，暴风雪山庄模式的开山之作。看完你会疯狂安利给所有人。豆瓣评分9.0。",
+    "category": "推理"
+  },
+  {
+    "id": "61",
+    "title": "东方快车谋杀案",
+    "author": "阿加莎·克里斯蒂",
+    "cover": "/book-daily/covers/61.jpg",
+    "description": "大雪封路，东方快车被困途中。第二天早上，一名乘客被发现身中12刀死在包厢内。大侦探波洛必须在有限的时间里找出真凶。",
+    "reason": "推理史上最著名的结局之一。当你以为猜到了真相时，阿加莎会给你一个更大的震撼。豆瓣评分9.0。",
+    "category": "推理"
+  },
+  {
+    "id": "62",
+    "title": "高效能人士的七个习惯",
+    "author": "史蒂芬·柯维",
+    "cover": "/book-daily/covers/62.jpg",
+    "description": "全球销量超4000万册的个人管理经典。从「积极主动」「以终为始」「要事第一」到「双赢思维」「知彼解己」「统合综效」「不断更新」。",
+    "reason": "不是鸡汤，是一套可以操作的个人效能系统。每年重读一遍都不会过时。豆瓣评分8.6。",
+    "category": "成长"
+  },
+  {
+    "id": "63",
+    "title": "如何阅读一本书",
+    "author": "莫提默·艾德勒",
+    "cover": "/book-daily/covers/63.jpg",
+    "description": "系统讲述阅读的四个层次：基础阅读、检视阅读、分析阅读、主题阅读。教你如何从一本书中榨取最大价值，而不是被动地翻页。",
+    "reason": "「读了很多书却好像什么也没记住？」——答案就在这本书里。豆瓣评分8.4。",
+    "category": "成长"
+  },
+  {
+    "id": "64",
+    "title": "原则",
+    "author": "瑞·达利欧",
+    "cover": "/book-daily/covers/64.jpg",
+    "description": "桥水基金创始人达利欧的人生经验之作——他用一套透明的、系统化的原则管理着全球最大的对冲基金。书中分享了生活原则和工作原则两大体系。",
+    "reason": "一个极度理性的人如何做决策。你可以不同意他的结论，但不能不佩服他的坦诚。",
+    "category": "商业"
+  },
+  {
+    "id": "65",
+    "title": "贫穷的本质",
+    "author": "阿比吉特·班纳吉 / 埃斯特·迪弗洛",
+    "cover": "/book-daily/covers/65.jpg",
+    "description": "2019年诺贝尔经济学奖得主的代表作——为什么穷人吃不饱饭还要买电视？为什么孩子上了学却学不到东西？用随机对照实验重新理解贫穷。",
+    "reason": "诺贝尔经济学奖级别的洞见。彻底颠覆你对贫穷的刻板印象和「何不食肉糜」式的想象。豆瓣评分7.8。",
+    "category": "商业"
+  },
+  {
+    "id": "66",
+    "title": "资本论",
+    "author": "卡尔·马克思",
+    "cover": "/book-daily/covers/66.jpg",
+    "description": "马克思毕生研究的结晶，以剩余价值理论为核心，揭示了资本主义生产方式的运行规律和内在矛盾。历史上影响最深远的政治经济学著作。",
+    "reason": "与其听别人告诉你什么是马克思主义，不如亲自读一读。这是改变世界的一本书。豆瓣评分9.1。",
+    "category": "社科"
+  },
+  {
+    "id": "67",
+    "title": "乌合之众",
+    "author": "古斯塔夫·勒庞",
+    "cover": "/book-daily/covers/67.jpg",
+    "description": "群体心理学开山之作——当个人融入群体时，理性消失、情绪传染、判断力下降。研究群体行为对理解政治运动、网络暴力、社会潮流至关重要。",
+    "reason": "1895年的书精准描绘了2025年的网络世界。读完你会重新看待每一个热搜事件。豆瓣评分8.3。",
+    "category": "社科"
+  },
+  {
+    "id": "68",
+    "title": "置身事内",
+    "author": "兰小欢",
+    "cover": "/book-daily/covers/68.jpg",
+    "description": "复旦大学兰小欢教授用通俗易懂的语言解读中国经济发展中的政府角色——土地财政、地方债、产业政策、城市化。不是赞美也不是批判，而是「置身事内」的冷静分析。",
+    "reason": "2021年现象级畅销书。读懂中国经济的必读之作，深入浅出，毫无学究气。豆瓣评分9.1。",
+    "category": "社科"
+  },
+  {
+    "id": "69",
+    "title": "叫魂",
+    "author": "孔飞力",
+    "cover": "/book-daily/covers/69.jpg",
+    "description": "1768年，一场「叫魂」巫术恐慌从江南席卷至大清帝国全境，连乾隆皇帝都被卷入其中。三个历史切片——底层民众、官僚体系、皇帝——展现了一个帝国如何被谣言驱动。",
+    "reason": "「太阳底下无新事」——读完你会发现，网络谣言、社会恐慌、官僚推诿这一套两百年前就上演过了。",
+    "category": "历史"
+  },
+  {
+    "id": "70",
+    "title": "邓小平时代",
+    "author": "傅高义",
+    "cover": "/book-daily/covers/70.jpg",
+    "description": "哈佛大学傅高义教授倾十年心力完成的巨著，对邓小平跌宕起伏的一生以及中国改革开放之路进行了全景式描述。",
+    "reason": "了解当代中国从何处来、如何走到今天的必读之书。客观、翔实、引人深思。豆瓣评分9.2。",
+    "category": "历史"
+  },
+  {
+    "id": "71",
+    "title": "Guns, Germs, and Steel",
+    "author": "Jared Diamond",
+    "cover": "/book-daily/covers/71.jpg",
+    "description": "Pulitzer Prize-winning examination of why Eurasian civilizations conquered the world rather than the other way around. Geography, biology, and environmental factors—not racial superiority—shaped human history.",
+    "reason": "A book that fundamentally changes how you think about history, civilization, and inequality. 普利策奖获奖作品。",
+    "category": "历史"
+  },
+  {
+    "id": "72",
+    "title": "史蒂夫·乔布斯传",
+    "author": "沃尔特·艾萨克森",
+    "cover": "/book-daily/covers/72.jpg",
+    "description": "唯一经乔布斯本人授权的官方传记。艾萨克森在两年多时间里与乔布斯进行了40多次面对面访谈，采访了100多位亲友同事，呈现了一个完整的乔布斯。",
+    "reason": "关于创新、完美主义和改变世界的最真实故事。乔布斯的偏执与天才同样令人震撼。豆瓣评分8.9。",
+    "category": "传记"
+  },
+  {
+    "id": "73",
+    "title": "我们仨",
+    "author": "杨绛",
+    "cover": "/book-daily/covers/73.jpg",
+    "description": "92岁的杨绛回忆与丈夫钱锺书、女儿钱瑗一家三口六十余年的生活点滴。从牛津留学到文革岁月，从一个「万里长梦」写起，深情克制，令人泪目。",
+    "reason": "世间好物不坚牢，彩云易散琉璃脆。最朴素的语言里藏着最深的爱。豆瓣评分9.0。",
+    "category": "传记"
+  },
+  {
+    "id": "74",
+    "title": "昨日的世界",
+    "author": "斯蒂芬·茨威格",
+    "cover": "/book-daily/covers/74.jpg",
+    "description": "茨威格生前最后一部作品——回忆从一战前夕到二战爆发的欧洲黄金时代。他亲历了维也纳的文化鼎盛、巴黎的艺术繁华，也目睹了这一切如何在战火中灰飞烟灭。",
+    "reason": "一位欧洲知识分子写给逝去时代的情书和悼词。读完你会理解今天的和平有多珍贵。豆瓣评分9.3。",
+    "category": "传记"
+  },
+  {
+    "id": "75",
+    "title": "从0到1",
+    "author": "彼得·蒂尔",
+    "cover": "/book-daily/covers/75.jpg",
+    "description": "PayPal创始人彼得·蒂尔的创业哲学——真正的创新是从0到1（创造新事物），而不是从1到N（复制已有模式）。竞争是失败者的游戏，垄断才是成功企业的目标。",
+    "reason": "硅谷最特立独行的思想者。每页都有让你停下来思考的洞见。",
+    "category": "商业"
+  },
+  {
+    "id": "76",
+    "title": "创新者的窘境",
+    "author": "克莱顿·克里斯坦森",
+    "cover": "/book-daily/covers/76.jpg",
+    "description": "为什么管理良好的大公司会在颠覆性技术面前失败？因为「做对了所有事」恰恰是它们被淘汰的原因。颠覆性创新总是从低端市场发起，最终颠覆整个行业。",
+    "reason": "乔布斯和贝索斯都反复引用的经典。理解商业和技术变革的底层逻辑。",
+    "category": "商业"
+  },
+  {
+    "id": "77",
+    "title": "少有人走的路",
+    "author": "斯科特·派克",
+    "cover": "/book-daily/covers/77.jpg",
+    "description": "心理医生派克以「人生苦难重重」开篇，用四部分——自律、爱、成长与宗教、神奇的力量——引导读者走上心智成熟的旅程。",
+    "reason": "畅销40年的心智成长圣经。「你不能解决问题，你就会成为问题。」豆瓣评分8.4。",
+    "category": "成长"
+  },
+  {
+    "id": "78",
+    "title": "原子习惯",
+    "author": "詹姆斯·克利尔",
+    "cover": "/book-daily/covers/78.jpg",
+    "description": "每天进步1%，一年后你会强大37倍。作者用四大法则——让它显而易见、让它有吸引力、让它简单易行、让它令人满足——教你无痛建立好习惯、戒除坏习惯。",
+    "reason": "比《刻意练习》更落地、比《自控力》更系统。习惯养成领域最好的实操手册。豆瓣评分8.8。",
+    "category": "成长"
+  },
+  {
+    "id": "79",
+    "title": "学会提问",
+    "author": "尼尔·布朗",
+    "cover": "/book-daily/covers/79.jpg",
+    "description": "批判性思维经典教材——如何识别论证中的谬误？如何评估证据的可靠性？如何区分事实与观点？一套系统的方法论，帮你在这个信息爆炸的时代保持清醒。",
+    "reason": "AI时代最需要的能力是提出好问题。这本书就是你的批判性思维训练手册。豆瓣评分8.6。",
+    "category": "成长"
+  },
+  {
+    "id": "80",
+    "title": "给青年的十二封信",
+    "author": "朱光潜",
+    "cover": "/book-daily/covers/80.jpg",
+    "description": "美学大师朱光潜留学欧洲期间写给国内青年的十二封信，谈读书、谈静、谈人生、谈情与理、谈升学与选课。一本薄薄的小册子，字字珠玑。",
+    "reason": "写于1929年，近百年后读来依然振聋发聩。最好的「给年轻人的建议」，没有之一。豆瓣评分9.0。",
+    "category": "成长"
+  }
 ]

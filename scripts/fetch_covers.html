@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>书籍封面抓取工具</title>
+<style>
+body { font-family: sans-serif; max-width: 800px; margin: 20px auto; padding: 0 20px; }
+.book { display: flex; align-items: center; gap: 12px; margin: 8px 0; padding: 8px; border-bottom: 1px solid #eee; }
+.book img { width: 60px; height: 84px; object-fit: cover; border-radius: 4px; background: #f0f0f0; }
+.book .title { font-weight: bold; min-width: 160px; }
+.book .status { font-size: 12px; }
+.book .ok { color: green; }
+.book .fail { color: red; }
+button { padding: 10px 24px; font-size: 16px; cursor: pointer; margin: 10px 0; }
+#output { width: 100%; height: 300px; margin-top: 10px; font-family: monospace; font-size: 12px; }
+#log { color: #666; font-size: 13px; white-space: pre-wrap; margin: 10px 0; max-height: 400px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; }
+</style>
+</head>
+<body>
+<h1>📚 书籍封面抓取</h1>
+<p>从豆瓣搜索获取每本书的正确封面图和详情页链接。请耐心等待，每次搜索间隔 1.5 秒。</p>
+<p><strong>先粘贴 books.json 内容到下方输入框，再点击开始。</strong></p>
+
+<textarea id="input" style="width:100%;height:150px;font-family:monospace;font-size:12px;" placeholder="在此粘贴 books.json 的内容..."></textarea>
+
+<br/>
+<button id="start">🚀 开始抓取</button>
+<span id="progress" style="margin-left:12px;color:#666;"></span>
+
+<div id="log"></div>
+
+<textarea id="output" placeholder="结果会显示在这里，复制后替换 books.json"></textarea>
+
+<script>
+const log = document.getElementById('log');
+const progress = document.getElementById('progress');
+const output = document.getElementById('output');
+
+function addLog(msg) { log.textContent += msg + '\n'; log.scrollTop = log.scrollHeight; }
+
+async function searchDouban(title) {
+  const url = `https://www.douban.com/search?cat=1001&q=${encodeURIComponent(title)}`;
+  const resp = await fetch(url, { credentials: 'omit' });
+  const html = await resp.text();
+
+  // 提取第一个书籍链接
+  let match = html.match(/https:\/\/book\.douban\.com\/subject\/(\d+)\//);
+  if (!match) {
+    match = html.match(/sid:\s*(\d+)/);
+  }
+  if (!match) return null;
+
+  const subjectId = match[1];
+  return { subjectId, url: `https://book.douban.com/subject/${subjectId}/` };
+}
+
+async function getCover(subjectId) {
+  const url = `https://book.douban.com/subject/${subjectId}/`;
+  const resp = await fetch(url, { credentials: 'omit' });
+  const html = await resp.text();
+
+  // 尝试多种方式提取封面
+  let match = html.match(/"pic"\s*:\s*"([^"]+)"/);
+  if (match) return match[1].replace(/\/m\//, '/l/').replace(/\/s\//, '/l/');
+
+  match = html.match(/<meta\s+property="og:image"\s+content="([^"]+)"/);
+  if (match) return match[1].replace(/\/m\//, '/l/').replace(/\/s\//, '/l/');
+
+  match = html.match(/<img[^>]*src="([^"]*\/l\/public\/[^"]+)"/);
+  if (match) return match[1];
+
+  return null;
+}
+
+function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+document.getElementById('start').addEventListener('click', async () => {
+  let books;
+  try {
+    books = JSON.parse(document.getElementById('input').value);
+  } catch(e) {
+    alert('JSON 格式错误，请检查粘贴内容');
+    return;
+  }
+
+  log.textContent = '';
+  progress.textContent = `共 ${books.length} 本书，开始...`;
+  addLog(`开始处理 ${books.length} 本书...\n`);
+
+  let ok = 0, fail = 0;
+
+  for (let i = 0; i < books.length; i++) {
+    const book = books[i];
+    progress.textContent = `[${i+1}/${books.length}] ${book.title}...`;
+    addLog(`[${i+1}/${books.length}] ${book.title} ...`);
+
+    try {
+      const result = await searchDouban(book.title);
+      if (result) {
+        book.doubanUrl = result.url;
+        const cover = await getCover(result.subjectId);
+        if (cover) {
+          book.cover = cover;
+          addLog(`  ✅ 封面: ${cover.substring(0, 70)}...`);
+          ok++;
+        } else {
+          addLog(`  ⚠️ 找到条目但无封面 (subject: ${result.subjectId})`);
+          fail++;
+        }
+      } else {
+        addLog(`  ❌ 未找到豆瓣条目`);
+        fail++;
+      }
+    } catch(e) {
+      addLog(`  ❌ 请求失败: ${e.message}`);
+      fail++;
+    }
+
+    if (i < books.length - 1) await delay(1500);
+  }
+
+  output.value = JSON.stringify(books, null, 2);
+  progress.textContent = `完成！✅ ${ok} 本成功, ❌ ${fail} 本失败`;
+  addLog(`\n----\n完成！成功 ${ok}, 失败 ${fail}`);
+});
+</script>
+</body>
+</html>
