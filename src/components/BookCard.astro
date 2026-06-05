@@ -56,10 +56,10 @@ const p = PALETTES[book.category] || PALETTES["文学"];
           onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';"
         />
         <div
-          class="hidden w-full aspect-[3/4] rounded-lg
-                 bg-gradient-to-br {p.bg} dark:bg-gradient-to-br {p.darkBg}
+          class={`hidden w-full aspect-[3/4] rounded-lg
+                 bg-gradient-to-br ${p.bg} dark:bg-gradient-to-br ${p.darkBg}
                  items-center justify-center p-4 shadow-lg
-                 shadow-amber-900/10 dark:shadow-black/40"
+                 shadow-amber-900/10 dark:shadow-black/40`}
           style="display: none;"
           role="img" aria-label={`${book.title} 封面`}
         >
@@ -70,11 +70,11 @@ const p = PALETTES[book.category] || PALETTES["文学"];
       </div>
     ) : (
       <div
-        class="w-full aspect-[3/4] rounded-lg shadow-lg
-               bg-gradient-to-br {p.bg} dark:bg-gradient-to-br {p.darkBg}
+        class={`w-full aspect-[3/4] rounded-lg shadow-lg
+               bg-gradient-to-br ${p.bg} dark:bg-gradient-to-br ${p.darkBg}
                flex flex-col items-center justify-center p-4 gap-2
                shadow-amber-900/10 dark:shadow-black/40
-               relative overflow-hidden"
+               relative overflow-hidden`}
         role="img" aria-label={`${book.title} 封面`}
       >
         <!-- 装饰横线 -->
