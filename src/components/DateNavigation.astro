@@ -17,28 +17,28 @@ const base = import.meta.env.BASE_URL;
 <div class="flex justify-between items-center mt-6 text-sm">
   <a
     href={`${base}/${prev}`}
-    class="flex items-center gap-1 text-gray-500 dark:text-gray-400
-           hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+    class="flex items-center gap-1 text-amber-700/60 dark:text-amber-300/50
+           hover:text-amber-800 dark:hover:text-amber-200 transition-colors font-medium"
   >
     ← {prev}
   </a>
   <a
     href={base}
-    class="text-gray-500 dark:text-gray-400
-           hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+    class="text-amber-700/60 dark:text-amber-300/50
+           hover:text-amber-800 dark:hover:text-amber-200 transition-colors font-medium"
   >
     回到今天
   </a>
   {showNext ? (
     <a
       href={`${base}/${next}`}
-      class="flex items-center gap-1 text-gray-500 dark:text-gray-400
-             hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+      class="flex items-center gap-1 text-amber-700/60 dark:text-amber-300/50
+             hover:text-amber-800 dark:hover:text-amber-200 transition-colors font-medium"
     >
       {next} →
     </a>
   ) : (
-    <span class="flex items-center gap-1 text-gray-300 dark:text-gray-600 cursor-not-allowed">
+    <span class="flex items-center gap-1 text-amber-400/40 dark:text-amber-600/30 cursor-not-allowed">
       已是今天
     </span>
   )}

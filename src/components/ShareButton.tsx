@@ -48,9 +48,10 @@ export default function ShareButton({ title, date, base = "" }: Props) {
     <button
       onClick={handleShare}
       class="inline-flex items-center gap-1 px-4 py-2 text-sm rounded-lg
-             bg-gray-100 dark:bg-gray-700
-             hover:bg-gray-200 dark:hover:bg-gray-600
-             transition-colors"
+             bg-amber-100 dark:bg-amber-900/30
+             text-amber-700 dark:text-amber-300
+             hover:bg-amber-200 dark:hover:bg-amber-900/50
+             transition-colors font-medium"
     >
       {copied ? "✓ 已复制链接" : "📤 分享"}
     </button>

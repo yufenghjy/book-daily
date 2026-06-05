@@ -81,7 +81,7 @@ export default function HistoryCalendar({
       <div class="flex items-center justify-between mb-4">
         <button
           onClick={prevMonth}
-          class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700
+          class="p-2 rounded-lg hover:bg-amber-100 dark:hover:bg-amber-900/20
                  transition-colors text-lg"
           aria-label="上个月"
         >
@@ -93,7 +93,7 @@ export default function HistoryCalendar({
         {canGoNext ? (
           <button
             onClick={nextMonth}
-            class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700
+            class="p-2 rounded-lg hover:bg-amber-100 dark:hover:bg-amber-900/20
                    transition-colors text-lg"
             aria-label="下个月"
           >
@@ -108,8 +108,8 @@ export default function HistoryCalendar({
       <div class="grid grid-cols-7 gap-1 mb-2">
         {WEEKDAYS.map((w) => (
           <div
-            class="text-center text-xs font-medium text-gray-500
-                   dark:text-gray-400 py-1"
+            class="text-center text-xs font-medium text-amber-700/50
+                   dark:text-amber-300/40 py-1"
           >
             {w}
           </div>
@@ -133,8 +133,8 @@ export default function HistoryCalendar({
                       rounded-lg text-sm transition-colors relative
                       ${
                         isToday
-                          ? "bg-blue-500 text-white font-bold shadow-md"
-                          : "hover:bg-gray-100 dark:hover:bg-gray-700"
+                          ? "bg-amber-600 text-white font-bold shadow-md shadow-amber-600/30"
+                          : "hover:bg-amber-100 dark:hover:bg-amber-900/20"
                       }`}
               title={`${cell.dateStr}: ${book.title}`}
             >
@@ -152,8 +152,8 @@ export default function HistoryCalendar({
         <button
           onClick={goToday}
           class="text-sm px-4 py-2 rounded-lg
-                 bg-gray-100 dark:bg-gray-700
-                 hover:bg-gray-200 dark:hover:bg-gray-600
+                 bg-amber-100 dark:bg-amber-900/20
+                 hover:bg-amber-200 dark:hover:bg-amber-900/40
                  transition-colors"
         >
           回到今天

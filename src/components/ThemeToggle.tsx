@@ -19,7 +19,7 @@ export default function ThemeToggle() {
     <button
       onClick={toggle}
       aria-label="切换暗色/亮色模式"
-      class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700
+      class="p-2 rounded-lg hover:bg-amber-100 dark:hover:bg-amber-900/30
              transition-colors text-lg leading-none"
     >
       {dark ? "☀️" : "🌙"}

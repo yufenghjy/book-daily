@@ -13,25 +13,32 @@ const base = import.meta.env.BASE_URL;
 ---
 
 <div
-  class="flex flex-col md:flex-row gap-6 p-6 md:p-8 rounded-2xl
-         bg-white dark:bg-gray-800 shadow-lg shadow-gray-200/50
-         dark:shadow-gray-900/50"
+  class="flex flex-col md:flex-row gap-8 p-8 md:p-10 rounded-2xl
+         content-card shadow-xl shadow-amber-900/5 dark:shadow-black/30
+         relative"
 >
+  <!-- Date badge -->
+  {date && (
+    <div class="absolute top-4 right-5 text-xs text-amber-600/60 dark:text-amber-400/40 font-medium">
+      {formatDateCN(date)}
+    </div>
+  )}
+
   <!-- Cover -->
-  <div class="flex-shrink-0 mx-auto md:mx-0 w-40 md:w-48">
+  <div class="flex-shrink-0 mx-auto md:mx-0 w-40 md:w-52">
     <img
       src={book.cover}
       alt={`${book.title} 封面`}
-      class="w-full rounded-lg shadow-md"
+      class="w-full rounded-lg shadow-lg shadow-amber-900/10 dark:shadow-black/40"
       loading="eager"
       decoding="async"
       onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';"
     />
-    <!-- Fallback when cover image fails to load -->
     <div
-      class="hidden w-full aspect-[3/4] rounded-lg bg-gray-200 dark:bg-gray-700
-             items-center justify-center text-4xl font-bold text-gray-400
-             dark:text-gray-500"
+      class="hidden w-full aspect-[3/4] rounded-lg
+             bg-amber-100 dark:bg-amber-900/30
+             items-center justify-center text-5xl font-bold
+             text-amber-400 dark:text-amber-600"
       style="display: none;"
     >
       {book.title[0]}
@@ -39,55 +46,57 @@ const base = import.meta.env.BASE_URL;
   </div>
 
   <!-- Details -->
-  <div class="flex-1 flex flex-col gap-3">
+  <div class="flex-1 flex flex-col gap-4 min-w-0">
     <!-- Category badge -->
     <span
-      class="self-start px-2.5 py-0.5 text-xs font-medium rounded-full
-             bg-blue-50 dark:bg-blue-900/40 text-blue-700
-             dark:text-blue-300"
+      class="self-start px-3 py-0.5 text-xs font-medium rounded-full
+             bg-amber-100 dark:bg-amber-900/30
+             text-amber-700 dark:text-amber-300"
     >
       {book.category}
     </span>
 
     <!-- Title -->
-    <h1 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
+    <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold
+               text-amber-950 dark:text-amber-100 leading-tight">
       {book.title}
     </h1>
 
     <!-- Author -->
-    <p class="text-base text-gray-500 dark:text-gray-400">
-      {book.author} 著
+    <p class="text-base text-amber-700/70 dark:text-amber-300/60 font-medium">
+      {book.author}
     </p>
 
     <!-- Description -->
-    <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-sm md:text-base">
+    <p class="text-amber-900/80 dark:text-amber-100/70 leading-relaxed
+              text-sm md:text-base max-w-2xl">
       {book.description}
     </p>
 
     <!-- Recommendation reason -->
     <blockquote
-      class="pl-4 border-l-4 border-blue-500 italic
-             text-gray-600 dark:text-gray-400 text-sm"
+      class="pl-4 border-l-[3px] border-amber-400 dark:border-amber-500
+             text-amber-800/70 dark:text-amber-200/60 text-sm italic
+             max-w-2xl"
     >
-      💡 {book.reason}
+      {book.reason}
     </blockquote>
 
     <!-- Actions -->
     <div class="flex flex-wrap items-center gap-3 mt-2">
-      {
-        book.doubanUrl && (
-          <a
-            href={book.doubanUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex items-center gap-1 text-sm
-                   text-green-600 dark:text-green-400
-                   hover:underline"
-          >
-            在豆瓣查看 →
-          </a>
-        )
-      }
+      {book.doubanUrl && (
+        <a
+          href={book.doubanUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1 text-sm
+                 text-amber-600 dark:text-amber-400
+                 hover:text-amber-800 dark:hover:text-amber-200
+                 transition-colors underline underline-offset-2"
+        >
+          在豆瓣查看 →
+        </a>
+      )}
       <ShareButton
         client:load
         title={book.title}
@@ -96,16 +105,4 @@ const base = import.meta.env.BASE_URL;
       />
     </div>
   </div>
-
-  <!-- Date badge -->
-  {
-    date && (
-      <div
-        class="hidden md:block absolute top-4 right-4 text-xs text-gray-400
-               dark:text-gray-500"
-      >
-        {formatDateCN(date)}
-      </div>
-    )
-  }
 </div>

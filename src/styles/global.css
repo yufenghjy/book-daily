@@ -6,3 +6,96 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC",
     "PingFang SC", "Microsoft YaHei", sans-serif;
 }
+
+/* 书香背景：温暖纸质感 */
+body {
+  background-color: #f5f0e8;
+  background-image:
+    /* 细微线条纹理 */
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 28px,
+      rgba(139, 119, 90, 0.06) 28px,
+      rgba(139, 119, 90, 0.06) 29px
+    ),
+    /* 顶部暖光 */
+    radial-gradient(
+      ellipse 1200px 600px at 50% 0%,
+      rgba(210, 180, 140, 0.15) 0%,
+      transparent 70%
+    ),
+    /* 底部暖光 */
+    radial-gradient(
+      ellipse 1000px 500px at 50% 100%,
+      rgba(180, 150, 110, 0.12) 0%,
+      transparent 70%
+    );
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* 暗色模式背景 */
+.dark body,
+body.dark {
+  background-color: #1a1814;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 28px,
+      rgba(180, 160, 130, 0.04) 28px,
+      rgba(180, 160, 130, 0.04) 29px
+    ),
+    radial-gradient(
+      ellipse 1200px 600px at 50% 0%,
+      rgba(120, 100, 70, 0.08) 0%,
+      transparent 70%
+    ),
+    radial-gradient(
+      ellipse 1000px 500px at 50% 100%,
+      rgba(100, 80, 50, 0.06) 0%,
+      transparent 70%
+    );
+}
+
+/* 圆形装饰元素 */
+.decorative-circle {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.06;
+}
+.decorative-circle-1 {
+  width: 600px;
+  height: 600px;
+  background: #8b7355;
+  top: -200px;
+  right: -150px;
+}
+.decorative-circle-2 {
+  width: 400px;
+  height: 400px;
+  background: #6b8b6b;
+  bottom: -100px;
+  left: -100px;
+}
+.decorative-circle-3 {
+  width: 300px;
+  height: 300px;
+  background: #b8860b;
+  top: 50%;
+  left: -80px;
+}
+
+/* 内容区域的卡片悬浮效果 */
+.content-card {
+  background: rgba(255, 252, 245, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(139, 119, 90, 0.12);
+}
+.dark .content-card {
+  background: rgba(30, 28, 24, 0.85);
+  border: 1px solid rgba(180, 160, 130, 0.1);
+}
