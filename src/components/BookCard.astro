@@ -10,6 +10,25 @@ export interface Props {
 
 const { book, date } = Astro.props;
 const base = import.meta.env.BASE_URL;
+const hasCover = book.cover && book.cover.length > 0;
+
+// 按分类生成不同配色
+const PALETTES: Record<string, { bg: string; accent: string; text: string; darkBg: string; darkAccent: string; darkText: string }> = {
+  "文学":   { bg: "from-rose-400 to-amber-400",   accent: "bg-rose-500",   text: "text-white", darkBg: "from-rose-800 to-amber-800",   darkAccent: "bg-rose-600",   darkText: "text-rose-200" },
+  "小说":   { bg: "from-indigo-400 to-sky-400",    accent: "bg-indigo-500",  text: "text-white", darkBg: "from-indigo-800 to-sky-800",    darkAccent: "bg-indigo-600",  darkText: "text-indigo-200" },
+  "科幻":   { bg: "from-violet-500 to-purple-700", accent: "bg-violet-600", text: "text-white", darkBg: "from-violet-900 to-purple-950",  darkAccent: "bg-violet-700",  darkText: "text-violet-200" },
+  "历史":   { bg: "from-amber-600 to-orange-700",  accent: "bg-amber-700",  text: "text-white", darkBg: "from-amber-900 to-orange-950",   darkAccent: "bg-amber-800",   darkText: "text-amber-200" },
+  "哲学":   { bg: "from-teal-500 to-emerald-600",  accent: "bg-teal-600",   text: "text-white", darkBg: "from-teal-900 to-emerald-950",   darkAccent: "bg-teal-700",    darkText: "text-teal-200" },
+  "心理学": { bg: "from-cyan-400 to-blue-500",      accent: "bg-cyan-500",   text: "text-white", darkBg: "from-cyan-900 to-blue-950",      darkAccent: "bg-cyan-700",    darkText: "text-cyan-200" },
+  "社科":   { bg: "from-orange-400 to-red-500",     accent: "bg-orange-500", text: "text-white", darkBg: "from-orange-900 to-red-950",     darkAccent: "bg-orange-700",  darkText: "text-orange-200" },
+  "科技":   { bg: "from-slate-500 to-zinc-700",     accent: "bg-slate-600",  text: "text-white", darkBg: "from-slate-900 to-zinc-950",     darkAccent: "bg-slate-700",   darkText: "text-slate-200" },
+  "成长":   { bg: "from-green-400 to-lime-500",     accent: "bg-green-500",  text: "text-white", darkBg: "from-green-900 to-lime-950",     darkAccent: "bg-green-700",   darkText: "text-green-200" },
+  "商业":   { bg: "from-blue-600 to-indigo-800",    accent: "bg-blue-700",   text: "text-white", darkBg: "from-blue-950 to-indigo-950",     darkAccent: "bg-blue-800",    darkText: "text-blue-200" },
+  "推理":   { bg: "from-gray-700 to-neutral-900",   accent: "bg-gray-800",   text: "text-white", darkBg: "from-gray-950 to-neutral-950",    darkAccent: "bg-gray-800",    darkText: "text-gray-200" },
+  "传记":   { bg: "from-yellow-500 to-amber-600",   accent: "bg-yellow-600", text: "text-white", darkBg: "from-yellow-900 to-amber-950",   darkAccent: "bg-yellow-700",  darkText: "text-yellow-200" },
+  "童话":   { bg: "from-pink-400 to-fuchsia-500",   accent: "bg-pink-500",   text: "text-white", darkBg: "from-pink-900 to-fuchsia-950",   darkAccent: "bg-pink-700",    darkText: "text-pink-200" },
+};
+const p = PALETTES[book.category] || PALETTES["文学"];
 ---
 
 <div
@@ -24,25 +43,52 @@ const base = import.meta.env.BASE_URL;
     </div>
   )}
 
-  <!-- Cover -->
+  <!-- Cover: real image or CSS-generated -->
   <div class="flex-shrink-0 mx-auto md:mx-0 w-40 md:w-52">
-    <img
-      src={book.cover}
-      alt={`${book.title} 封面`}
-      class="w-full rounded-lg shadow-lg shadow-amber-900/10 dark:shadow-black/40"
-      loading="eager"
-      decoding="async"
-      onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';"
-    />
-    <div
-      class="hidden w-full aspect-[3/4] rounded-lg
-             bg-amber-100 dark:bg-amber-900/30
-             items-center justify-center text-5xl font-bold
-             text-amber-400 dark:text-amber-600"
-      style="display: none;"
-    >
-      {book.title[0]}
-    </div>
+    {hasCover ? (
+      <div class="relative group">
+        <img
+          src={book.cover}
+          alt={`${book.title} 封面`}
+          class="w-full rounded-lg shadow-lg shadow-amber-900/10 dark:shadow-black/40"
+          loading="eager"
+          decoding="async"
+          onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div
+          class="hidden w-full aspect-[3/4] rounded-lg
+                 bg-gradient-to-br {p.bg} dark:bg-gradient-to-br {p.darkBg}
+                 items-center justify-center p-4 shadow-lg
+                 shadow-amber-900/10 dark:shadow-black/40"
+          style="display: none;"
+          role="img" aria-label={`${book.title} 封面`}
+        >
+          <p class="text-center text-white/90 font-bold text-sm leading-tight line-clamp-4">
+            {book.title}
+          </p>
+        </div>
+      </div>
+    ) : (
+      <div
+        class="w-full aspect-[3/4] rounded-lg shadow-lg
+               bg-gradient-to-br {p.bg} dark:bg-gradient-to-br {p.darkBg}
+               flex flex-col items-center justify-center p-4 gap-2
+               shadow-amber-900/10 dark:shadow-black/40
+               relative overflow-hidden"
+        role="img" aria-label={`${book.title} 封面`}
+      >
+        <!-- 装饰横线 -->
+        <div class="absolute top-3 left-3 right-3 h-[2px] bg-white/20 rounded-full"></div>
+        <div class="absolute top-6 left-4 right-4 h-[1px] bg-white/10 rounded-full"></div>
+        <!-- 书名 -->
+        <p class="text-white/90 font-bold text-center text-sm leading-tight z-10 line-clamp-4 px-1">
+          {book.title}
+        </p>
+        <!-- 底部装饰 -->
+        <div class={`absolute bottom-4 w-8 h-1 rounded-full ${p.accent} dark:${p.darkAccent} bg-white/30`}></div>
+        <div class="absolute bottom-3 left-3 right-3 h-[1px] bg-white/10 rounded-full"></div>
+      </div>
+    )}
   </div>
 
   <!-- Details -->
